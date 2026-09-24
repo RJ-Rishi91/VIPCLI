@@ -1,6 +1,7 @@
 /**
  * EnviroRise Clearance (ERC) — Interactive Diagrams & Process Visualizations
  * Powers the Assessment Hub, Clearances Flow, Monitoring Hub, and Audit Cycle.
+ * Fully responsive for both desktop cursor navigation and mobile touchscreens.
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -12,92 +13,97 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // 1. Assessment Hub Interaction
 function initAssessmentHub() {
-  const hubContainer = document.getElementById('assessment-hub-container');
-  if (!hubContainer) return;
+  const customNodes = document.querySelectorAll('.assessment-node');
+  const targetNodes = customNodes.length 
+    ? customNodes 
+    : document.querySelectorAll('#assessment-hub-container .flex.items-start, main section .lg\\:col-span-4 .flex.items-start');
+    
+  if (!targetNodes.length) return;
 
-  const nodes = hubContainer.querySelectorAll('.assessment-node');
-  const previewTitle = document.getElementById('hub-preview-title');
-  const previewDesc = document.getElementById('hub-preview-desc');
-  const previewPill = document.getElementById('hub-preview-pill');
-
-  nodes.forEach(node => {
-    node.addEventListener('click', () => {
-      nodes.forEach(n => {
-        n.classList.remove('ring-4', 'ring-fresh-green', 'bg-mint-tint');
-        n.classList.add('bg-white');
+  targetNodes.forEach(node => {
+    node.classList.add('cursor-pointer', 'transition-all', 'duration-200');
+    
+    const activate = () => {
+      targetNodes.forEach(n => {
+        n.classList.remove('ring-2', 'ring-fresh-green', 'bg-mint-tint/80', 'shadow-md');
       });
-      node.classList.add('ring-4', 'ring-fresh-green', 'bg-mint-tint');
-      node.classList.remove('bg-white');
+      node.classList.add('ring-2', 'ring-fresh-green', 'bg-mint-tint/80', 'shadow-md');
+    };
 
-      const title = node.getAttribute('data-title');
-      const desc = node.getAttribute('data-desc');
-      const category = node.getAttribute('data-category') || 'ASSESSMENT SERVICE';
-
-      if (previewTitle) previewTitle.textContent = title;
-      if (previewDesc) previewDesc.textContent = desc;
-      if (previewPill) previewPill.textContent = category;
-    });
+    node.addEventListener('click', activate);
+    node.addEventListener('mouseenter', activate);
   });
 }
 
 // 2. Clearances Process Timeline
 function initClearancesTimeline() {
-  const steps = document.querySelectorAll('.clearance-step-item');
-  const detailsTitle = document.getElementById('clearance-detail-title');
-  const detailsText = document.getElementById('clearance-detail-text');
-
+  const customSteps = document.querySelectorAll('.clearance-step-item');
+  const steps = customSteps.length 
+    ? customSteps 
+    : document.querySelectorAll('main section .md\\:grid-cols-5 > div');
+    
   if (!steps.length) return;
 
   steps.forEach(step => {
-    step.addEventListener('click', () => {
+    step.classList.add('cursor-pointer', 'transition-all', 'duration-200', 'rounded-2xl', 'p-2');
+    
+    const activate = () => {
       steps.forEach(s => {
-        s.classList.remove('active-step', 'border-fresh-green', 'bg-mint-tint');
-        s.classList.add('border-border', 'bg-white');
+        s.classList.remove('scale-105', 'bg-mint-tint/60', 'ring-2', 'ring-fresh-green', 'shadow-md');
       });
-      step.classList.add('active-step', 'border-fresh-green', 'bg-mint-tint');
-      step.classList.remove('border-border', 'bg-white');
+      step.classList.add('scale-105', 'bg-mint-tint/60', 'ring-2', 'ring-fresh-green', 'shadow-md');
+    };
 
-      const title = step.getAttribute('data-title');
-      const text = step.getAttribute('data-text');
-
-      if (detailsTitle) detailsTitle.textContent = title;
-      if (detailsText) detailsText.textContent = text;
-    });
+    step.addEventListener('click', activate);
+    step.addEventListener('mouseenter', activate);
   });
 }
 
-// 3. Monitoring Hub
+// 3. Monitoring Hub Interaction
 function initMonitoringHub() {
-  const nodes = document.querySelectorAll('.monitoring-node');
-  const previewBox = document.getElementById('monitoring-preview-box');
-  const titleEl = document.getElementById('monitoring-preview-title');
-  const descEl = document.getElementById('monitoring-preview-desc');
-
-  if (!nodes.length || !previewBox) return;
+  const customNodes = document.querySelectorAll('.monitoring-node');
+  const nodes = customNodes.length 
+    ? customNodes 
+    : document.querySelectorAll('main section .lg\\:col-span-4 .rounded-2xl.bg-surface');
+    
+  if (!nodes.length) return;
 
   nodes.forEach(node => {
-    node.addEventListener('click', () => {
-      nodes.forEach(n => n.classList.remove('active-mon-node', 'ring-4', 'ring-fresh-green'));
-      node.classList.add('active-mon-node', 'ring-4', 'ring-fresh-green');
+    node.classList.add('cursor-pointer', 'transition-all', 'duration-200');
 
-      const title = node.getAttribute('data-title');
-      const desc = node.getAttribute('data-desc');
+    const activate = () => {
+      nodes.forEach(n => {
+        n.classList.remove('ring-2', 'ring-fresh-green', 'bg-mint-tint/80', 'shadow-md');
+      });
+      node.classList.add('ring-2', 'ring-fresh-green', 'bg-mint-tint/80', 'shadow-md');
+    };
 
-      if (titleEl) titleEl.textContent = title;
-      if (descEl) descEl.textContent = desc;
-    });
+    node.addEventListener('click', activate);
+    node.addEventListener('mouseenter', activate);
   });
 }
 
-// 4. Audit & Compliance Cycle
+// 4. Audit & Compliance Cycle Interaction
 function initAuditCycle() {
-  const cycleSteps = document.querySelectorAll('.audit-cycle-step');
+  const customSteps = document.querySelectorAll('.audit-cycle-step');
+  const cycleSteps = customSteps.length 
+    ? customSteps 
+    : document.querySelectorAll('main section .grid-cols-1.md\\:grid-cols-5 > .flex-col.items-center');
+    
   if (!cycleSteps.length) return;
 
   cycleSteps.forEach(step => {
-    step.addEventListener('mouseenter', () => {
-      cycleSteps.forEach(s => s.classList.remove('scale-105', 'shadow-xl', 'bg-mint-tint'));
-      step.classList.add('scale-105', 'shadow-xl', 'bg-mint-tint');
-    });
+    step.classList.add('cursor-pointer', 'transition-all', 'duration-200', 'rounded-2xl', 'p-2');
+
+    const activate = () => {
+      cycleSteps.forEach(s => {
+        s.classList.remove('scale-105', 'shadow-xl', 'bg-mint-tint/80');
+      });
+      step.classList.add('scale-105', 'shadow-xl', 'bg-mint-tint/80');
+    };
+
+    step.addEventListener('mouseenter', activate);
+    step.addEventListener('click', activate);
+    step.addEventListener('touchstart', activate, { passive: true });
   });
 }

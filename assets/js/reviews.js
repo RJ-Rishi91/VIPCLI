@@ -44,7 +44,8 @@ async function initHomeReviewsCarousel() {
   if (!reviews || !reviews.length) return;
 
   let activeIndex = 0;
-  const cardsPerView = window.innerWidth >= 1024 ? 3 : (window.innerWidth >= 640 ? 2 : 1);
+  const getCardsPerView = () => window.innerWidth >= 1024 ? 3 : (window.innerWidth >= 640 ? 2 : 1);
+  let cardsPerView = getCardsPerView();
 
   function renderCarousel() {
     container.innerHTML = reviews.map((rev, idx) => `
@@ -87,14 +88,18 @@ async function initHomeReviewsCarousel() {
   const nextBtn = document.getElementById('reviews-next');
   const dotsContainer = document.getElementById('reviews-dots');
 
-  const maxIndex = Math.max(0, reviews.length - cardsPerView);
+  function getMaxIndex() {
+    return Math.max(0, reviews.length - cardsPerView);
+  }
 
   function updateDots() {
     if (!dotsContainer) return;
     dotsContainer.innerHTML = '';
-    for (let i = 0; i <= maxIndex; i++) {
+    const maxIdx = getMaxIndex();
+    for (let i = 0; i <= maxIdx; i++) {
       const dot = document.createElement('button');
       dot.className = `w-3 h-3 rounded-full transition-all duration-300 ${i === activeIndex ? 'bg-primary-teal w-7' : 'bg-gray-300'}`;
+      dot.setAttribute('aria-label', `Slide ${i + 1}`);
       dot.addEventListener('click', () => {
         activeIndex = i;
         slide();
@@ -112,17 +117,48 @@ async function initHomeReviewsCarousel() {
 
   if (prevBtn) {
     prevBtn.addEventListener('click', () => {
-      activeIndex = activeIndex > 0 ? activeIndex - 1 : maxIndex;
+      const maxIdx = getMaxIndex();
+      activeIndex = activeIndex > 0 ? activeIndex - 1 : maxIdx;
       slide();
     });
   }
 
   if (nextBtn) {
     nextBtn.addEventListener('click', () => {
-      activeIndex = activeIndex < maxIndex ? activeIndex + 1 : 0;
+      const maxIdx = getMaxIndex();
+      activeIndex = activeIndex < maxIdx ? activeIndex + 1 : 0;
       slide();
     });
   }
+
+  window.addEventListener('resize', () => {
+    const newCount = getCardsPerView();
+    if (newCount !== cardsPerView) {
+      cardsPerView = newCount;
+      activeIndex = Math.min(activeIndex, getMaxIndex());
+      slide();
+    }
+  });
+
+  // Mobile Touch Swipe support
+  let touchStartX = 0;
+  let touchEndX = 0;
+
+  container.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+
+  container.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].clientX;
+    const diff = touchStartX - touchEndX;
+    if (Math.abs(diff) > 40) {
+      if (diff > 0) {
+        if (nextBtn) nextBtn.click();
+      } else {
+        if (prevBtn) prevBtn.click();
+      }
+    }
+  }, { passive: true });
 
   updateDots();
 

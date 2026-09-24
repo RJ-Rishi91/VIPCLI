@@ -1,5 +1,23 @@
 [
   {
+    "id": "inq-1790219718778",
+    "name": "Aliased Inquiry Test",
+    "email": "",
+    "phone": "+91 9785552521",
+    "service": "Assessment",
+    "message": "",
+    "submittedAt": "2026-09-24T03:15:18.778Z"
+  },
+  {
+    "id": "inq-1790219611088",
+    "name": "Mobile Verification Test",
+    "email": "mobile@example.com",
+    "phone": "+91 9888877777",
+    "service": "Clearances",
+    "message": "Testing mobile submission flow.",
+    "submittedAt": "2026-09-24T03:13:31.089Z"
+  },
+  {
     "id": "inq-1790217186633",
     "name": "Localhost Test User",
     "email": "test@example.com",

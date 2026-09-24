@@ -131,7 +131,7 @@ app.post('/api/gallery', (req, res) => {
 });
 
 // 3. INQUIRIES ENDPOINTS (From Floating Drawer & CTA buttons)
-app.post('/api/inquiries', (req, res) => {
+app.post(['/api/inquiries', '/api/inquiry'], (req, res) => {
   const { name, email, phone, service, message } = req.body;
   if (!name || !phone) {
     return res.status(400).json({ error: 'Name and phone are required' });
@@ -155,13 +155,13 @@ app.post('/api/inquiries', (req, res) => {
   res.status(201).json({ success: true, inquiry: newInquiry });
 });
 
-app.get('/api/inquiries', (req, res) => {
+app.get(['/api/inquiries', '/api/inquiry'], (req, res) => {
   const inquiries = readJson(INQUIRIES_FILE, []);
   res.json(inquiries);
 });
 
 // 4. CONTACT MESSAGES ENDPOINTS (From Contact Us page)
-app.post('/api/contact', (req, res) => {
+app.post(['/api/contact', '/api/contacts'], (req, res) => {
   const { name, email, phone, message } = req.body;
   if (!name || !email || !message) {
     return res.status(400).json({ error: 'Name, email, and message are required' });

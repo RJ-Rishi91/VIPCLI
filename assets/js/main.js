@@ -108,6 +108,27 @@ function initMobileDrawer() {
   if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
   backdrop.addEventListener('click', closeDrawer);
 
+  // Close drawer when any internal navigation link is tapped
+  drawer.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      closeDrawer();
+    });
+  });
+
+  // Keyboard accessibility: Close drawers on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeDrawer();
+      const inqDrawer = document.getElementById('inquiry-drawer');
+      const inqBackdrop = document.getElementById('inquiry-backdrop');
+      if (inqDrawer && inqDrawer.classList.contains('active')) {
+        inqDrawer.classList.remove('active');
+        if (inqBackdrop) inqBackdrop.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+  });
+
   // Mobile Accordion Dropdowns
   const accordionTriggers = drawer.querySelectorAll('.mobile-accordion-btn');
   accordionTriggers.forEach(btn => {

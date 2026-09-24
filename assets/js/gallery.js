@@ -185,6 +185,25 @@ async function initGallery() {
     else if (e.key === 'ArrowLeft') prevPhoto();
   });
 
+  // Mobile Touch Swipe support for lightbox
+  if (lightbox) {
+    let lbTouchStartX = 0;
+    let lbTouchEndX = 0;
+
+    lightbox.addEventListener('touchstart', (e) => {
+      lbTouchStartX = e.touches[0].clientX;
+    }, { passive: true });
+
+    lightbox.addEventListener('touchend', (e) => {
+      lbTouchEndX = e.changedTouches[0].clientX;
+      const diff = lbTouchStartX - lbTouchEndX;
+      if (Math.abs(diff) > 40) {
+        if (diff > 0) nextPhoto();
+        else prevPhoto();
+      }
+    }, { passive: true });
+  }
+
   // Initial render
   filterAndRender();
 }

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "inq-1790217186633",
+    "name": "Localhost Test User",
+    "email": "test@example.com",
+    "phone": "+91 9999999999",
+    "service": "Environmental Impact Assessment (EIA)",
+    "message": "Testing live inquiry pipeline",
+    "submittedAt": "2026-09-24T02:33:06.633Z"
+  }
+]

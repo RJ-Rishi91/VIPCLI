@@ -4,8 +4,12 @@
  */
 
 const ERCApi = (() => {
-  // Configurable Backend URL (Default pointing to Render instance or localStorage override)
-  let baseUrl = window.ERC_API_URL || localStorage.getItem('erc_api_url') || 'https://envirorise-backend.onrender.com';
+  // Configurable Backend URL (Auto-detects localhost or defaults to Render)
+  const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+  const defaultLocalApi = window.location.port === '5000' ? '' : 'http://localhost:5000';
+  let baseUrl = window.ERC_API_URL || 
+                localStorage.getItem('erc_api_url') || 
+                (isLocal ? defaultLocalApi : 'https://envirorise-backend.onrender.com');
 
   const getHeaders = () => ({
     'Content-Type': 'application/json',

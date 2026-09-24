@@ -189,10 +189,42 @@ app.get('/api/contact', (req, res) => {
   res.json(messages);
 });
 
+// ==================== STATIC FRONTEND SERVING ====================
+// Serves the full website when running the backend locally or on preview host
+const ROOT_DIR = path.join(__dirname, '..');
+app.use(express.static(ROOT_DIR));
+
+// Clean URL routing: e.g. /our-company -> our-company.html
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api')) return next();
+
+  const cleanPath = req.path.replace(/^\/+|\/+$/g, '');
+  if (!cleanPath) {
+    return res.sendFile(path.join(ROOT_DIR, 'index.html'));
+  }
+
+  const directFile = path.join(ROOT_DIR, cleanPath);
+  if (fs.existsSync(directFile) && fs.statSync(directFile).isFile()) {
+    return res.sendFile(directFile);
+  }
+
+  const htmlFile = path.join(ROOT_DIR, `${cleanPath}.html`);
+  if (fs.existsSync(htmlFile) && fs.statSync(htmlFile).isFile()) {
+    return res.sendFile(htmlFile);
+  }
+
+  const notFoundFile = path.join(ROOT_DIR, '404.html');
+  if (fs.existsSync(notFoundFile)) {
+    return res.status(404).sendFile(notFoundFile);
+  }
+  return res.status(404).send('Page Not Found');
+});
+
 // Start Server
 app.listen(PORT, () => {
-  console.log(`===============================================`);
-  console.log(` EnviroRise Clearance Backend running on port ${PORT}`);
+  console.log(`=======================================================`);
+  console.log(` EnviroRise Clearance Website & API running on port ${PORT}`);
+  console.log(` Website:     http://localhost:${PORT}`);
   console.log(` Healthcheck: http://localhost:${PORT}/api/health`);
-  console.log(`===============================================`);
+  console.log(`=======================================================`);
 });

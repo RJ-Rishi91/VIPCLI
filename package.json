@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Production Website for EnviroRise Clearance Private Limited",
   "scripts": {
-    "dev": "npx -y serve . -p 3000",
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
     "serve": "npx -y serve . -p 3000",
-    "backend": "cd backend && npm run dev"
+    "backend": "cd backend && node server.js"
   },
   "keywords": [
     "environmental-clearance",

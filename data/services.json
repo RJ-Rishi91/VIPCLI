@@ -1,0 +1,220 @@
+{
+  "assessment": {
+    "title": "Assessment",
+    "tagline": "Informed Decisions for a Sustainable Future",
+    "intro": "Understand the Environmental Reality Before You Build. Sound environmental decisions begin with reliable assessment. ERCPL conducts scientific assessments to understand baseline conditions, environmental risks, potential impacts and regulatory requirements before and during project development.",
+    "items": [
+      {
+        "title": "Environmental Impact Assessment (EIA)",
+        "text": "Detailed assessment of potential environmental impacts to support project planning and statutory approvals."
+      },
+      {
+        "title": "Site & Baseline Assessment",
+        "text": "Assessment of environmental conditions and project-specific risks."
+      },
+      {
+        "title": "Water Audits",
+        "text": "Assessment of water consumption, management and conservation opportunities."
+      },
+      {
+        "title": "Hydrological Studies",
+        "text": "Technical studies supporting water-resource planning and regulatory requirements."
+      },
+      {
+        "title": "Air Quality Modelling",
+        "text": "Predictive assessment of air-quality impacts for environmental planning and submissions."
+      },
+      {
+        "title": "Noise Modelling",
+        "text": "Assessment and modelling of potential noise impacts."
+      },
+      {
+        "title": "Land Use / Land Cover Analysis",
+        "text": "Geospatial analysis for project planning, land management and environmental assessment."
+      },
+      {
+        "title": "Environmental & Ecological Studies",
+        "text": "Assessment of environmental conditions, ecosystems and resource requirements."
+      },
+      {
+        "title": "Drone Survey & DGPS Survey",
+        "text": "High-precision mapping for accurate data and better decisions."
+      },
+      {
+        "title": "Planning & Design",
+        "text": "Translate insights into practical, sustainable solutions."
+      }
+    ]
+  },
+  "clearances": {
+    "title": "Clearances",
+    "tagline": "Enabling Responsible Growth",
+    "intro": "Clear the Regulatory Path for Your Project. Environmental approvals can be complex, documentation-heavy and time-sensitive. ERC provides structured technical and regulatory support to help project proponents understand requirements, prepare documentation and navigate applicable statutory approval processes.",
+    "process": [
+      {
+        "step": 1,
+        "title": "Prepare",
+        "text": "Compile studies, reports and required documents as per regulatory norms."
+      },
+      {
+        "step": 2,
+        "title": "Apply",
+        "text": "Submission to relevant authorities with complete information."
+      },
+      {
+        "step": 3,
+        "title": "Evaluation",
+        "text": "Review, site inspections and addressing queries from authorities."
+      },
+      {
+        "step": 4,
+        "title": "Approval",
+        "text": "Grant of clearances / NOCs with prescribed conditions."
+      },
+      {
+        "step": 5,
+        "title": "Comply & Sustain",
+        "text": "Adhere to conditions and maintain ongoing compliance."
+      }
+    ],
+    "items": [
+      {
+        "title": "Environmental Clearance (EC)",
+        "text": "Technical assistance for obtaining statutory Environmental Clearance."
+      },
+      {
+        "title": "Consent to Establish (CTE)",
+        "text": "Support for regulatory permissions required before establishing eligible projects."
+      },
+      {
+        "title": "Consent to Operate (CTO)",
+        "text": "Compliance support for operational permissions."
+      },
+      {
+        "title": "CGWA / CGWB NOCs",
+        "text": "Support for groundwater-related approvals and documentation."
+      },
+      {
+        "title": "Forest Clearance",
+        "text": "Assistance with applicable forest-related permissions."
+      },
+      {
+        "title": "Wildlife Clearance",
+        "text": "Support for wildlife-related statutory approvals."
+      },
+      {
+        "title": "Fire NOC",
+        "text": "Assistance with fire-related statutory requirements."
+      },
+      {
+        "title": "WRD NOC",
+        "text": "Support for applicable Water Resources Department permissions."
+      },
+      {
+        "title": "AAI Height Clearance",
+        "text": "Support for height-clearance requirements for applicable developments."
+      },
+      {
+        "title": "Mining Plans & Mine Closure Plans",
+        "text": "Technical planning for mining operations and environmentally responsible closure."
+      }
+    ]
+  },
+  "monitoring": {
+    "title": "Monitoring",
+    "tagline": "Real Data. A Cleaner Tomorrow.",
+    "intro": "Measure What Matters. Environmental compliance depends on reliable data. ERCPL provides structured environmental monitoring services covering air, water, soil and noise, helping organisations establish baseline conditions, monitor environmental performance and support statutory compliance.",
+    "items": [
+      {
+        "title": "Air Quality Monitoring",
+        "text": "Measurement and assessment of relevant ambient air parameters."
+      },
+      {
+        "title": "Noise Monitoring",
+        "text": "Monitoring of environmental noise to support compliance and impact assessment."
+      },
+      {
+        "title": "Water Quality Monitoring",
+        "text": "Sampling and testing of applicable surface water, groundwater and other water sources."
+      },
+      {
+        "title": "Field Sampling",
+        "text": "Systematic site-based sampling using standardised procedures."
+      },
+      {
+        "title": "Soil Monitoring",
+        "text": "Soil sampling and environmental quality assessment."
+      },
+      {
+        "title": "Laboratory Testing",
+        "text": "Testing through associated NABL-accredited and MoEF&CC-approved laboratory facilities."
+      },
+      {
+        "title": "Data Analysis & Reporting",
+        "text": "Conversion of monitoring data into technical reports and actionable recommendations."
+      }
+    ]
+  },
+  "audit_compliance": {
+    "title": "Audit & Compliance",
+    "tagline": "From Commitments to Continuous Compliance",
+    "intro": "Compliance Is Not a One-Time Event. Modern organisations are expected to do more than comply with regulations. They must manage resources responsibly, improve environmental performance, protect workplace safety and build long-term resilience. ERCPL helps organisations integrate environmental thinking into planning, operations and development.",
+    "cycle": [
+      {
+        "step": 1,
+        "title": "Environmental Audits",
+        "text": "Evaluate environmental performance, identify gaps and recommend improvements."
+      },
+      {
+        "step": 2,
+        "title": "Compliance Support",
+        "text": "Guidance on applicable regulations, documentation and preparation for inspections."
+      },
+      {
+        "step": 3,
+        "title": "Post-Clearance Compliances",
+        "text": "Ongoing support to meet conditions of clearances and statutory requirements."
+      },
+      {
+        "step": 4,
+        "title": "Monitoring & Reporting",
+        "text": "Track performance, maintain records and submit compliance reports."
+      },
+      {
+        "step": 5,
+        "title": "Sustainable Operations",
+        "text": "Reduced risk, regulatory confidence and a cleaner, greener tomorrow."
+      }
+    ],
+    "items": [
+      {
+        "title": "Sustainable Development Planning",
+        "text": "Integrate environmental considerations into project and business decisions."
+      },
+      {
+        "title": "Resource Conservation",
+        "text": "Identify opportunities to improve responsible use of water and natural resources."
+      },
+      {
+        "title": "Environmental Management",
+        "text": "Develop practical approaches to managing environmental impacts and resources."
+      },
+      {
+        "title": "Sustainable Architecture",
+        "text": "Support environmentally responsible site planning, building design and interiors."
+      },
+      {
+        "title": "EHS Support",
+        "text": "Strengthen environmental health and workplace safety practices."
+      },
+      {
+        "title": "Green Building Support",
+        "text": "Integrate energy-efficient and eco-friendly design principles where applicable."
+      },
+      {
+        "title": "Sustainability Analysis",
+        "text": "Evaluate project and organisational practices from an environmental and sustainability perspective."
+      }
+    ]
+  }
+}

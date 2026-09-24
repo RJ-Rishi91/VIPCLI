@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnviroRise Clearance | Environmental Consulting & Clearances | EnviroRise Clearance</title>
+  <meta name="description" content="Environmental Impact Assessment, Clearances (EC, CTE, CTO), Environmental Monitoring, Audits and Sustainability Solutions in Jaipur, India.">
+  <meta property="og:title" content="EnviroRise Clearance | Environmental Consulting & Clearances | EnviroRise Clearance">
+  <meta property="og:description" content="Environmental Impact Assessment, Clearances (EC, CTE, CTO), Environmental Monitoring, Audits and Sustainability Solutions in Jaipur, India.">
+  <meta property="og:image" content="./assets/images/envlogo-nav.png">
+  <link rel="icon" type="image/png" href="./assets/images/envlogo-nav.png">
+  
+  <!-- Google Fonts: Montserrat & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            'primary-teal': '#0B5F5F',
+            'deep-teal': '#073F41',
+            'leaf-green': '#3B7521',
+            'fresh-green': '#6BAA3D',
+            'sun-yellow': '#F4C430',
+            'mint-tint': '#EAF3EE',
+            'surface': '#F8FBF8',
+            'text-main': '#12312F',
+            'text-muted': '#4C6461',
+            'border-light': '#D6E4DC',
+            // Stitch palette aliases
+            'primary': '#0B5F5F',
+            'primary-container': '#0B5F5F',
+            'muted': '#4C6461',
+            'border': '#D6E4DC'
+          },
+          fontFamily: {
+            heading: ['Montserrat', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+            'headline-lg': ['Montserrat', 'sans-serif'],
+            'headline-sm': ['Montserrat', 'sans-serif'],
+            'body-lg': ['Inter', 'sans-serif'],
+            'body-md': ['Inter', 'sans-serif'],
+            'body-sm': ['Inter', 'sans-serif'],
+            'eyebrow': ['Inter', 'sans-serif'],
+            'label-md': ['Inter', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-[#F8FBF8] text-[#12312F] font-body selection:bg-fresh-green selection:text-white">
+
+<!-- GLOBAL HEADER -->
+<header class="fixed top-0 left-0 w-full z-50">
+  <!-- S0a: Utility Bar -->
+  <div id="utility-bar" class="bg-deep-teal text-white text-[13px] px-6 lg:px-12 flex items-center">
+    <div class="max-w-7xl mx-auto w-full flex items-center justify-between">
+      <div class="flex items-center gap-3 md:gap-6 tracking-wide text-white/90">
+        <a href="tel:+919785552521" class="flex items-center gap-1.5 hover:text-sun-yellow transition-colors">
+          <span class="material-symbols-outlined text-[15px] text-sun-yellow">call</span>
+          <span>+91-9785552521</span>
+        </a>
+        <span class="text-white/40 hidden sm:inline">|</span>
+        <a href="tel:+919929442024" class="hidden sm:flex items-center gap-1.5 hover:text-sun-yellow transition-colors">
+          <span class="material-symbols-outlined text-[15px] text-sun-yellow">smartphone</span>
+          <span>+91-9929442024</span>
+        </a>
+        <span class="text-white/40 hidden md:inline">|</span>
+        <a href="mailto:info@enviro-rise.com" class="hidden md:flex items-center gap-1.5 hover:text-sun-yellow transition-colors">
+          <span class="material-symbols-outlined text-[15px] text-sun-yellow">mail</span>
+          <span>info@enviro-rise.com</span>
+        </a>
+      </div>
+      <div class="flex items-center gap-4 text-white">
+        <a href="#" class="hover:text-sun-yellow transition-colors" title="Facebook" aria-label="Facebook">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="#" class="hover:text-sun-yellow transition-colors" title="Instagram" aria-label="Instagram">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="#" class="hover:text-sun-yellow transition-colors" title="LinkedIn" aria-label="LinkedIn">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- S0b: Main Navigation -->
+  <nav id="main-nav" class="h-[84px] bg-white border-b border-[#D6E4DC] px-6 lg:px-12 flex items-center">
+    <div class="max-w-7xl mx-auto w-full h-full flex items-center justify-between">
+      <!-- Logo -->
+      <a href="./index.html" class="flex items-center gap-3">
+        <img src="./assets/images/envlogo-nav.webp" alt="EnviroRise Clearance" class="h-12 md:h-14 w-auto object-contain">
+      </a>
+
+      <!-- Desktop Nav Items -->
+      <div class="hidden xl:flex items-center h-full gap-7 text-[15px]">
+        <a href="./index.html" class="text-leaf-green font-semibold border-b-[3px] border-fresh-green flex items-center h-full transition-colors">Home</a>
+
+        <!-- About Us Dropdown -->
+        <div class="relative group h-full flex items-center">
+          <a href="./our-company.html" class="text-[#12312F] hover:text-leaf-green font-medium flex items-center h-full transition-colors flex items-center gap-1 cursor-pointer">
+            <span>About Us</span>
+            <span class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span>
+          </a>
+          <div class="nav-dropdown absolute top-full left-0 w-60 bg-white rounded-xl shadow-[0_10px_30px_rgba(11,95,95,0.12)] border border-[#D6E4DC] p-2 flex flex-col gap-1">
+            <a href="./our-company.html" class="px-4 py-2.5 rounded-lg text-sm text-[#12312F] hover:bg-mint-tint hover:text-leaf-green transition-colors">Our Company</a>
+            <a href="./management-team.html" class="px-4 py-2.5 rounded-lg text-sm text-[#12312F] hover:bg-mint-tint hover:text-leaf-green transition-colors">Management Team</a>
+            <a href="./core-team.html" class="px-4 py-2.5 rounded-lg text-sm text-[#12312F] hover:bg-mint-tint hover:text-leaf-green transition-colors">Core Team</a>
+          </div>
+        </div>
+
+        <!-- Services Dropdown -->
+        <div class="relative group h-full flex items-center">
+          <a href="./assessment.html" class="text-[#12312F] hover:text-leaf-green font-medium flex items-center h-full transition-colors flex items-center gap-1 cursor-pointer">
+            <span>Services</span>
+            <span class="material-symbols-outlined text-[18px] transition-transform group-hover:rotate-180">expand_more</span>
+          </a>
+          <div class="nav-dropdown absolute top-full left-0 w-64 bg-white rounded-xl shadow-[0_10px_30px_rgba(11,95,95,0.12)] border border-[#D6E4DC] p-2 flex flex-col gap-1">
+            <a href="./assessment.html" class="px-4 py-2.5 rounded-lg text-sm text-[#12312F] hover:bg-mint-tint hover:text-leaf-green transition-colors">Assessment</a>
+            <a href="./clearances.html" class="px-4 py-2.5 rounded-lg text-sm text-[#12312F] hover:bg-mint-tint hover:text-leaf-green transition-colors">Clearances</a>
+            <a href="./monitoring.html" class="px-4 py-2.5 rounded-lg text-sm text-[#12312F] hover:bg-mint-tint hover:text-leaf-green transition-colors">Monitoring</a>
+            <a href="./audit-compliance.html" class="px-4 py-2.5 rounded-lg text-sm text-[#12312F] hover:bg-mint-tint hover:text-leaf-green transition-colors">Audit & Compliance</a>
+          </div>
+        </div>
+
+        <a href="./clientele.html" class="text-[#12312F] hover:text-leaf-green font-medium flex items-center h-full transition-colors">Clientele</a>
+        <a href="./reviews.html" class="text-[#12312F] hover:text-leaf-green font-medium flex items-center h-full transition-colors">Reviews</a>
+        <a href="./gallery.html" class="text-[#12312F] hover:text-leaf-green font-medium flex items-center h-full transition-colors">Gallery</a>
+        <a href="./contact-us.html" class="text-[#12312F] hover:text-leaf-green font-medium flex items-center h-full transition-colors">Contact Us</a>
+      </div>
+
+      <!-- Action Button & Hamburger -->
+      <div class="flex items-center gap-4">
+        <button data-action="talk-to-expert" class="hidden sm:inline-flex items-center gap-2 bg-primary-teal hover:bg-[#073F41] text-white px-5 py-2.5 rounded-full text-sm font-semibold tracking-wide shadow-sm transition-all hover:shadow-md">
+          <span>Talk to Expert</span>
+          <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+        </button>
+
+        <!-- Mobile Menu Trigger -->
+        <button id="mobile-menu-btn" class="xl:hidden p-2 text-[#12312F] hover:text-primary-teal focus:outline-none" aria-label="Open Navigation Menu">
+          <span class="material-symbols-outlined text-[32px]">menu</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile Navigation Drawer -->
+<div id="drawer-backdrop" class="drawer-backdrop fixed inset-0 bg-black/50 z-50"></div>
+<div id="mobile-drawer" class="drawer-panel fixed top-0 right-0 h-full w-[85%] max-w-[360px] bg-white z-50 shadow-2xl flex flex-col justify-between overflow-y-auto">
+  <div class="p-6">
+    <div class="flex items-center justify-between pb-5 border-b border-border-light">
+      <img src="./assets/images/envlogo-nav.webp" alt="EnviroRise" class="h-10 w-auto">
+      <button id="close-drawer-btn" class="p-2 text-gray-500 hover:text-gray-800">
+        <span class="material-symbols-outlined text-[26px]">close</span>
+      </button>
+    </div>
+
+    <div class="flex flex-col gap-1 mt-6 text-base font-medium text-[#12312F]">
+      <a href="./index.html" class="px-4 py-3 rounded-lg hover:bg-mint-tint hover:text-leaf-green">Home</a>
+
+      <!-- About Mobile Accordion -->
+      <div>
+        <button class="mobile-accordion-btn w-full px-4 py-3 rounded-lg flex items-center justify-between hover:bg-mint-tint">
+          <span>About Us</span>
+          <span class="material-symbols-outlined text-[20px] transition-transform accordion-chevron">expand_more</span>
+        </button>
+        <div class="hidden pl-6 flex flex-col gap-1 py-1">
+          <a href="./our-company.html" class="px-4 py-2 text-sm text-[#4C6461] hover:text-leaf-green">Our Company</a>
+          <a href="./management-team.html" class="px-4 py-2 text-sm text-[#4C6461] hover:text-leaf-green">Management Team</a>
+          <a href="./core-team.html" class="px-4 py-2 text-sm text-[#4C6461] hover:text-leaf-green">Core Team</a>
+        </div>
+      </div>
+
+      <!-- Services Mobile Accordion -->
+      <div>
+        <button class="mobile-accordion-btn w-full px-4 py-3 rounded-lg flex items-center justify-between hover:bg-mint-tint">
+          <span>Services</span>
+          <span class="material-symbols-outlined text-[20px] transition-transform accordion-chevron">expand_more</span>
+        </button>
+        <div class="hidden pl-6 flex flex-col gap-1 py-1">
+          <a href="./assessment.html" class="px-4 py-2 text-sm text-[#4C6461] hover:text-leaf-green">Assessment</a>
+          <a href="./clearances.html" class="px-4 py-2 text-sm text-[#4C6461] hover:text-leaf-green">Clearances</a>
+          <a href="./monitoring.html" class="px-4 py-2 text-sm text-[#4C6461] hover:text-leaf-green">Monitoring</a>
+          <a href="./audit-compliance.html" class="px-4 py-2 text-sm text-[#4C6461] hover:text-leaf-green">Audit & Compliance</a>
+        </div>
+      </div>
+
+      <a href="./clientele.html" class="px-4 py-3 rounded-lg hover:bg-mint-tint hover:text-leaf-green">Clientele</a>
+      <a href="./reviews.html" class="px-4 py-3 rounded-lg hover:bg-mint-tint hover:text-leaf-green">Reviews</a>
+      <a href="./gallery.html" class="px-4 py-3 rounded-lg hover:bg-mint-tint hover:text-leaf-green">Gallery</a>
+      <a href="./contact-us.html" class="px-4 py-3 rounded-lg hover:bg-mint-tint hover:text-leaf-green">Contact Us</a>
+    </div>
+  </div>
+
+  <div class="p-6 border-t border-border-light bg-[#F8FBF8]">
+    <div class="flex flex-col gap-2 text-xs text-[#4C6461] mb-4">
+      <div class="flex items-center gap-2">
+        <span class="material-symbols-outlined text-[16px] text-leaf-green">call</span>
+        <span>+91-9785552521 / +91-9929442024</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="material-symbols-outlined text-[16px] text-leaf-green">mail</span>
+        <span>info@enviro-rise.com</span>
+      </div>
+    </div>
+    <button data-action="talk-to-expert" class="w-full bg-primary-teal text-white py-3 rounded-full font-semibold text-sm shadow hover:bg-deep-teal transition-colors flex items-center justify-center gap-2">
+      <span>Talk to Expert</span>
+      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+    </button>
+  </div>
+</div>
+<main class="w-full pt-[84px] bg-[#F8FBF8] min-h-screen"><div class="fixed right-0 top-1/2 -translate-y-1/2 z-40"><a class="bg-sun-yellow text-deep-teal font-label-md text-[13px] font-bold tracking-wider uppercase py-4 px-2 rounded-l-lg shadow-[0_10px_30px_rgba(7,63,65,0.2)] hover:bg-[#ebbb25] transition-all flex items-center justify-center vertical-text" data-path="contact-us" href="#">Inquiry Now</a></div><div class="fixed right-6 bottom-6 z-40"><a aria-label="Back to top" class="w-12 h-12 rounded-full bg-primary-container text-white flex items-center justify-center shadow-[0_10px_30px_rgba(11,95,95,0.25)] hover:bg-deep-teal hover:-translate-y-1 transition-all" href="#"><span class="material-symbols-outlined text-[24px]">keyboard_arrow_up</span></a></div><main class="w-full pt-[124px] bg-surface min-h-[calc(100vh-450px)]"><div class="flex flex-col w-full">
+<!-- Active Navigation State Sync -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const homeLinks = document.querySelectorAll('header nav a[data-path="home"]');
+      homeLinks.forEach(link => {
+        link.className = 'text-leaf-green font-semibold border-b-[3px] border-fresh-green flex items-center h-full transition-colors font-label-md text-label-md';
+      });
+    });
+  </script>
+<!-- SECTION 1: S1 · HERO SLIDER -->
+
+<!-- S1 · DYNAMIC HERO SLIDER -->
+<section id="hero-slider" class="relative w-full h-[88vh] min-h-[640px] max-h-[920px] overflow-hidden select-none bg-deep-teal">
+  <!-- Slide 1 -->
+  <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-100 z-10">
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[8000ms] scale-105" style="background-image: url('assets/images/banners/hero-bg-1.jpg')"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-deep-teal/95 via-deep-teal/75 to-deep-teal/30"></div>
+    
+    <div class="relative z-10 max-w-7xl mx-auto h-full px-6 lg:px-12 flex flex-col justify-center">
+      <div class="max-w-[760px] flex flex-col">
+        <h1 class="flex flex-col tracking-tight uppercase">
+          <span class="font-heading font-extrabold text-[40px] sm:text-[54px] lg:text-[62px] leading-tight text-white">ENVIRONMENTAL</span>
+          <span class="font-heading font-extrabold text-[40px] sm:text-[54px] lg:text-[62px] leading-tight text-sun-yellow">EXPERT</span>
+          <span class="font-heading font-extrabold text-[28px] sm:text-[36px] lg:text-[42px] leading-tight text-white mt-1">CONSULTING SERVICES</span>
+        </h1>
+        <div class="flex items-center gap-3 my-5 w-full max-w-[220px]">
+          <div class="h-[1px] bg-white/70 flex-1"></div>
+          <div class="flex items-center text-fresh-green -space-x-1">
+            <span class="material-symbols-outlined text-[18px]">eco</span>
+            <span class="material-symbols-outlined text-[15px] -rotate-45">eco</span>
+          </div>
+          <div class="h-[1px] bg-white/70 flex-1"></div>
+        </div>
+        <p class="font-heading text-white font-medium text-[19px] lg:text-[22px] tracking-normal mb-8">
+          Sustainable Solutions. Responsible Tomorrow.
+        </p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 items-stretch gap-4 sm:gap-0 sm:divide-x sm:divide-white/30 mb-8">
+          <div class="flex flex-col items-center sm:items-start text-center sm:text-left sm:pr-4">
+            <div class="w-12 h-12 rounded-full bg-fresh-green flex items-center justify-center text-white mb-2 shadow-md">
+              <span class="material-symbols-outlined text-[24px]">assignment_turned_in</span>
+            </div>
+            <span class="text-[12px] font-semibold tracking-wider text-white uppercase leading-snug">ENVIRONMENTAL ASSESSMENT</span>
+          </div>
+          <div class="flex flex-col items-center sm:items-start text-center sm:text-left sm:px-4">
+            <div class="w-12 h-12 rounded-full bg-fresh-green flex items-center justify-center text-white mb-2 shadow-md">
+              <span class="material-symbols-outlined text-[24px]">speed</span>
+            </div>
+            <span class="text-[12px] font-semibold tracking-wider text-white uppercase leading-snug">COMPLIANCE &amp; MONITORING</span>
+          </div>
+          <div class="flex flex-col items-center sm:items-start text-center sm:text-left sm:px-4">
+            <div class="w-12 h-12 rounded-full bg-fresh-green flex items-center justify-center text-white mb-2 shadow-md">
+              <span class="material-symbols-outlined text-[24px]">nature_people</span>
+            </div>
+            <span class="text-[12px] font-semibold tracking-wider text-white uppercase leading-snug">SUSTAINABILITY SOLUTIONS</span>
+          </div>
+          <div class="flex flex-col items-center sm:items-start text-center sm:text-left sm:pl-4">
+            <div class="w-12 h-12 rounded-full bg-fresh-green flex items-center justify-center text-white mb-2 shadow-md">
+              <span class="material-symbols-outlined text-[24px]">psychology</span>
+            </div>
+            <span class="text-[12px] font-semibold tracking-wider text-white uppercase leading-snug">EXPERT GUIDANCE</span>
+          </div>
+        </div>
+        <div>
+          <button data-action="talk-to-expert" class="btn-yellow px-8 py-3.5 rounded-full text-base font-bold shadow-lg transition-transform hover:scale-105 inline-flex items-center gap-2">
+            <span>Talk to Expert</span>
+            <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 pointer-events-none z-0">
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[8000ms] scale-105" style="background-image: url('assets/images/banners/hero-bg-2.jpg')"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-deep-teal/95 via-deep-teal/75 to-deep-teal/30"></div>
+    
+    <div class="relative z-10 max-w-7xl mx-auto h-full px-6 lg:px-12 flex flex-col justify-center">
+      <div class="max-w-[760px] flex flex-col">
+        <span class="text-sun-yellow font-eyebrow text-xs md:text-sm font-semibold tracking-widest uppercase mb-3 block">OUR PHILOSOPHY</span>
+        <h1 class="font-heading font-extrabold text-[36px] sm:text-[50px] lg:text-[58px] leading-tight text-white mb-6">
+          Development and Sustainability Must Move Together.
+        </h1>
+        <p class="font-body text-white/90 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl">
+          Responsible Development. Environmental Integrity. Sustainable Growth. Helping projects achieve statutory approvals while protecting natural resources.
+        </p>
+        <div class="flex flex-wrap items-center gap-4">
+          <button data-action="talk-to-expert" class="btn-yellow px-8 py-3.5 rounded-full text-base font-bold shadow-lg transition-transform hover:scale-105 inline-flex items-center gap-2">
+            <span>Talk to Expert</span>
+            <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+          </button>
+          <a href="our-company.html" class="px-7 py-3.5 rounded-full text-base font-semibold text-white border-2 border-white hover:bg-white hover:text-deep-teal transition-all">
+            Discover Our Philosophy
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="hero-slide absolute inset-0 transition-opacity duration-1000 ease-in-out opacity-0 pointer-events-none z-0">
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[8000ms] scale-105" style="background-image: url('assets/images/banners/hero-bg-3.jpg')"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-deep-teal/95 via-deep-teal/75 to-deep-teal/30"></div>
+    
+    <div class="relative z-10 max-w-7xl mx-auto h-full px-6 lg:px-12 flex flex-col justify-center">
+      <div class="max-w-[760px] flex flex-col">
+        <span class="text-sun-yellow font-eyebrow text-xs md:text-sm font-semibold tracking-widest uppercase mb-3 block">STATUTORY CLEARANCES</span>
+        <h1 class="font-heading font-extrabold text-[36px] sm:text-[50px] lg:text-[58px] leading-tight text-white mb-6">
+          Clear the Regulatory Path for Your Project.
+        </h1>
+        <p class="font-body text-white/90 text-lg md:text-xl leading-relaxed mb-8 max-w-2xl">
+          Environmental approvals can be complex, documentation-heavy and time-sensitive. We streamline your EC, CTE, CTO, CGWA and statutory compliance with technical precision.
+        </p>
+        <div class="flex flex-wrap items-center gap-4">
+          <button data-action="talk-to-expert" class="btn-yellow px-8 py-3.5 rounded-full text-base font-bold shadow-lg transition-transform hover:scale-105 inline-flex items-center gap-2">
+            <span>Talk to Expert</span>
+            <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+          </button>
+          <a href="clearances.html" class="px-7 py-3.5 rounded-full text-base font-semibold text-white border-2 border-white hover:bg-white hover:text-deep-teal transition-all">
+            View Clearance Services
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slider Controls -->
+  <button class="hero-prev absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-deep-teal/60 hover:bg-deep-teal text-white flex items-center justify-center z-20 backdrop-blur-sm border border-white/20 transition-all hover:scale-110" aria-label="Previous Slide">
+    <span class="material-symbols-outlined text-[28px]">chevron_left</span>
+  </button>
+  <button class="hero-next absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-deep-teal/60 hover:bg-deep-teal text-white flex items-center justify-center z-20 backdrop-blur-sm border border-white/20 transition-all hover:scale-110" aria-label="Next Slide">
+    <span class="material-symbols-outlined text-[28px]">chevron_right</span>
+  </button>
+
+  <!-- Dots Container -->
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-3 z-20">
+    <button class="hero-dot w-8 h-3 rounded-full bg-sun-yellow transition-all" aria-label="Slide 1"></button>
+    <button class="hero-dot w-3 h-3 rounded-full bg-white/50 hover:bg-white transition-all" aria-label="Slide 2"></button>
+    <button class="hero-dot w-3 h-3 rounded-full bg-white/50 hover:bg-white transition-all" aria-label="Slide 3"></button>
+  </div>
+</section>
+
+<!-- SECTION 2: S2 · ABOUT -->
+<section class="w-full bg-[#F8FBF8] py-24 overflow-hidden">
+<div class="w-full pl-6 lg:pl-12 max-w-[1440px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left 6 Columns Text -->
+<div class="lg:col-span-6 pr-6 lg:pr-8">
+<span class="font-eyebrow text-eyebrow text-leaf-green font-semibold tracking-[0.14em] uppercase block mb-3">ABOUT US</span>
+<h2 class="font-headline-lg text-leaf-green font-bold text-[34px] sm:text-[38px] leading-tight mb-4">
+            About EnviroRise Clearance
+          </h2>
+<!-- 48x3px Fresh Green Bar -->
+<div class="w-12 h-[3px] bg-fresh-green mb-6"></div>
+<!-- Lead Paragraph -->
+<p class="font-body-lg text-[20px] font-medium text-text leading-relaxed mb-5">
+            EnviroRise Clearance Private Limited (ERCPL) provides professional environmental consulting, regulatory compliance and sustainability solutions that connect development with environmental responsibility.
+          </p>
+<!-- Body Paragraph -->
+<p class="font-body-md text-[17px] text-muted leading-relaxed mb-8">
+            From <strong class="text-text font-semibold">Environmental Impact Assessment and statutory clearances to environmental monitoring, audits, EHS and sustainable planning,</strong> we support projects throughout their environmental compliance journey.
+          </p>
+<!-- Button Row -->
+<div class="flex flex-wrap items-center gap-4">
+<a class="inline-flex items-center justify-center px-7 py-3 rounded-full bg-primary-container text-white font-label-md text-label-md font-semibold hover:bg-deep-teal transition-all shadow-md active:scale-95" data-path="our-company" href="#">
+              Know More →
+            </a>
+<a class="inline-flex items-center justify-center px-7 py-3 rounded-full border-2 border-primary-container text-primary-container font-label-md text-label-md font-semibold hover:bg-mint-tint transition-all active:scale-95" data-path="talk-to-expert" href="#">
+              Talk to Expert
+            </a>
+</div>
+</div>
+<!-- Right 6 Columns: Image bleeding directly to right edge of viewport -->
+<div class="lg:col-span-6 w-full flex justify-end">
+<div class="w-full h-[460px] rounded-l-[32px] bg-cover bg-center shadow-[0_15px_35px_rgba(7,63,65,0.12)]" data-alt="3D rendered friendly professional environmental engineers wearing yellow hard hats and safety vests standing at a green building site inspecting eco architecture models surrounded by living foliage and solar canopies." style="background-image: url('assets/images/banners/page-banner-bg.jpg')"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: S3 · WHY US -->
+<section class="w-full bg-mint-tint py-24 px-6 lg:px-12">
+<div class="max-w-7xl mx-auto">
+<!-- Centered Header -->
+<div class="flex flex-col items-center text-center mb-16">
+<span class="font-eyebrow text-eyebrow text-leaf-green font-semibold tracking-[0.14em] uppercase mb-2">OUR VALUE PROPOSITION</span>
+<h2 class="font-headline-lg text-primary font-bold text-[34px] sm:text-[38px] leading-tight mb-4">
+          Why Us?
+        </h2>
+<div class="w-12 h-[3px] bg-fresh-green mb-4"></div>
+<h3 class="font-headline-sm text-leaf-green font-semibold text-[22px] sm:text-[24px] mb-3">
+          One Partner. Multiple Environmental Solutions.
+        </h3>
+<p class="font-body-md text-muted text-[16px] max-w-[720px] leading-relaxed">
+          We provide end-to-end environmental consulting support across project planning, approvals, implementation and compliance.
+        </p>
+</div>
+<!-- 3-column x 2-row grid of white cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="bg-white rounded-[16px] p-8 shadow-[0_10px_30px_rgba(11,95,95,0.10)] flex flex-col justify-between hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-mint-tint flex items-center justify-center text-fresh-green mb-6">
+<span class="material-symbols-outlined text-[28px]">approval_delegation</span>
+</div>
+<h3 class="font-headline-sm text-primary font-bold text-[20px] leading-snug mb-3">
+              Environmental Clearance
+            </h3>
+<p class="font-body-md text-muted text-[16px] leading-relaxed mb-6">
+              Support for obtaining statutory Environmental Clearance and related project approvals.
+            </p>
+</div>
+<a class="inline-flex items-center text-leaf-green font-label-md text-label-md font-semibold hover:text-fresh-green transition-colors" data-path="services-clearances" href="#">
+            Learn more →
+          </a>
+</div>
+<!-- Card 2 -->
+<div class="bg-white rounded-[16px] p-8 shadow-[0_10px_30px_rgba(11,95,95,0.10)] flex flex-col justify-between hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-mint-tint flex items-center justify-center text-fresh-green mb-6">
+<span class="material-symbols-outlined text-[28px]">biotech</span>
+</div>
+<h3 class="font-headline-sm text-primary font-bold text-[20px] leading-snug mb-3">
+              EIA &amp; Environmental Assessment
+            </h3>
+<p class="font-body-md text-muted text-[16px] leading-relaxed mb-6">
+              Scientific assessment of environmental impacts to support responsible project planning and regulatory requirements.
+            </p>
+</div>
+<a class="inline-flex items-center text-leaf-green font-label-md text-label-md font-semibold hover:text-fresh-green transition-colors" data-path="services-assessment" href="#">
+            Learn more →
+          </a>
+</div>
+<!-- Card 3 -->
+<div class="bg-white rounded-[16px] p-8 shadow-[0_10px_30px_rgba(11,95,95,0.10)] flex flex-col justify-between hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-mint-tint flex items-center justify-center text-fresh-green mb-6">
+<span class="material-symbols-outlined text-[28px]">graphic_eq</span>
+</div>
+<h3 class="font-headline-sm text-primary font-bold text-[20px] leading-snug mb-3">
+              Environmental Monitoring
+            </h3>
+<p class="font-body-md text-muted text-[16px] leading-relaxed mb-6">
+              Air, water, soil and noise monitoring through structured field sampling and laboratory analysis.
+            </p>
+</div>
+<a class="inline-flex items-center text-leaf-green font-label-md text-label-md font-semibold hover:text-fresh-green transition-colors" data-path="services-monitoring" href="#">
+            Learn more →
+          </a>
+</div>
+<!-- Card 4 -->
+<div class="bg-white rounded-[16px] p-8 shadow-[0_10px_30px_rgba(11,95,95,0.10)] flex flex-col justify-between hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-mint-tint flex items-center justify-center text-fresh-green mb-6">
+<span class="material-symbols-outlined text-[28px]">gavel</span>
+</div>
+<h3 class="font-headline-sm text-primary font-bold text-[20px] leading-snug mb-3">
+              Regulatory Compliance
+            </h3>
+<p class="font-body-md text-muted text-[16px] leading-relaxed mb-6">
+              Support for CTE, CTO, environmental conditions, post-clearance compliance and regulatory documentation.
+            </p>
+</div>
+<a class="inline-flex items-center text-leaf-green font-label-md text-label-md font-semibold hover:text-fresh-green transition-colors" data-path="services-audit-compliance" href="#">
+            Learn more →
+          </a>
+</div>
+<!-- Card 5 -->
+<div class="bg-white rounded-[16px] p-8 shadow-[0_10px_30px_rgba(11,95,95,0.10)] flex flex-col justify-between hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-mint-tint flex items-center justify-center text-fresh-green mb-6">
+<span class="material-symbols-outlined text-[28px]">water_drop</span>
+</div>
+<h3 class="font-headline-sm text-primary font-bold text-[20px] leading-snug mb-3">
+              Water &amp; Hydrological Services
+            </h3>
+<p class="font-body-md text-muted text-[16px] leading-relaxed mb-6">
+              Water audits, CGWA/CGWB NOCs and hydrological studies for sustainable water management.
+            </p>
+</div>
+<a class="inline-flex items-center text-leaf-green font-label-md text-label-md font-semibold hover:text-fresh-green transition-colors" data-path="services-clearances" href="#">
+            Learn more →
+          </a>
+</div>
+<!-- Card 6 -->
+<div class="bg-white rounded-[16px] p-8 shadow-[0_10px_30px_rgba(11,95,95,0.10)] flex flex-col justify-between hover:-translate-y-1.5 transition-transform duration-300">
+<div>
+<div class="w-14 h-14 rounded-full bg-mint-tint flex items-center justify-center text-fresh-green mb-6">
+<span class="material-symbols-outlined text-[28px]">energy_savings_leaf</span>
+</div>
+<h3 class="font-headline-sm text-primary font-bold text-[20px] leading-snug mb-3">
+              ESG &amp; Sustainability
+            </h3>
+<p class="font-body-md text-muted text-[16px] leading-relaxed mb-6">
+              Practical sustainability and environmental-management solutions for organisations looking to improve environmental performance.
+            </p>
+</div>
+<a class="inline-flex items-center text-leaf-green font-label-md text-label-md font-semibold hover:text-fresh-green transition-colors" data-path="services-assessment" href="#">
+            Learn more →
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: S4 · SERVICE TILES -->
+<section class="w-full">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full">
+<!-- Tile 1 -->
+<div class="relative w-full h-[420px] overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Industrial construction infrastructure with regulatory architects reviewing building permits and engineering schematics at sunset." style="background-image: url('assets/images/banners/page-banner-bg.jpg')">
+<div class="absolute inset-0 bg-gradient-to-t from-deep-teal via-deep-teal/70 to-transparent"></div>
+</div>
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center text-fresh-green shadow-md">
+<span class="material-symbols-outlined text-[28px]">verified</span>
+</div>
+<div class="flex items-end justify-between">
+<div class="pr-4">
+<h3 class="font-headline-sm text-white font-bold text-[24px] lg:text-[26px] uppercase leading-tight mb-2">
+                CLEARANCES
+              </h3>
+<div class="w-10 h-[3px] bg-sun-yellow mb-2.5"></div>
+<p class="font-body-md text-white/90 text-[15px]">Enabling Responsible Growth</p>
+</div>
+<a aria-label="View Clearances" class="w-11 h-11 rounded-full bg-white text-deep-teal flex items-center justify-center shrink-0 hover:bg-sun-yellow transition-colors shadow-lg" data-path="services-clearances" href="#">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Tile 2 -->
+<div class="relative w-full h-[420px] overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Scientific environmental field survey across emerald hills and pristine water catchment area with high precision GPS sensor instruments." style="background-image: url('assets/images/banners/page-banner-bg.jpg')">
+<div class="absolute inset-0 bg-gradient-to-t from-deep-teal via-deep-teal/70 to-transparent"></div>
+</div>
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center text-fresh-green shadow-md">
+<span class="material-symbols-outlined text-[28px]">eco</span>
+</div>
+<div class="flex items-end justify-between">
+<div class="pr-4">
+<h3 class="font-headline-sm text-white font-bold text-[24px] lg:text-[26px] uppercase leading-tight mb-2">
+                ENVIRONMENTAL ASSESSMENT
+              </h3>
+<div class="w-10 h-[3px] bg-sun-yellow mb-2.5"></div>
+<p class="font-body-md text-white/90 text-[15px]">Informed Decisions for a Sustainable Future</p>
+</div>
+<a aria-label="View Environmental Assessment" class="w-11 h-11 rounded-full bg-white text-deep-teal flex items-center justify-center shrink-0 hover:bg-sun-yellow transition-colors shadow-lg" data-path="services-assessment" href="#">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Tile 3 -->
+<div class="relative w-full h-[420px] overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Close up of ambient air and hydrological quality monitoring telemetry equipment collecting real time ecological readings in industrial boundary." style="background-image: url('assets/images/banners/page-banner-bg.jpg')">
+<div class="absolute inset-0 bg-gradient-to-t from-deep-teal via-deep-teal/70 to-transparent"></div>
+</div>
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center text-fresh-green shadow-md">
+<span class="material-symbols-outlined text-[28px]">analytics</span>
+</div>
+<div class="flex items-end justify-between">
+<div class="pr-4">
+<h3 class="font-headline-sm text-white font-bold text-[24px] lg:text-[26px] uppercase leading-tight mb-2">
+                MONITORING
+              </h3>
+<div class="w-10 h-[3px] bg-sun-yellow mb-2.5"></div>
+<p class="font-body-md text-white/90 text-[15px]">Real Data. A Cleaner Tomorrow.</p>
+</div>
+<a aria-label="View Monitoring" class="w-11 h-11 rounded-full bg-white text-deep-teal flex items-center justify-center shrink-0 hover:bg-sun-yellow transition-colors shadow-lg" data-path="services-monitoring" href="#">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Tile 4 -->
+<div class="relative w-full h-[420px] overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Compliance engineering auditors in hi-vis uniforms performing quality assurance check inside modern renewable facility." style="background-image: url('assets/images/banners/page-banner-bg.jpg')">
+<div class="absolute inset-0 bg-gradient-to-t from-deep-teal via-deep-teal/70 to-transparent"></div>
+</div>
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div class="w-14 h-14 rounded-full bg-white flex items-center justify-center text-fresh-green shadow-md">
+<span class="material-symbols-outlined text-[28px]">security</span>
+</div>
+<div class="flex items-end justify-between">
+<div class="pr-4">
+<h3 class="font-headline-sm text-white font-bold text-[24px] lg:text-[26px] uppercase leading-tight mb-2">
+                AUDIT &amp; COMPLIANCE
+              </h3>
+<div class="w-10 h-[3px] bg-sun-yellow mb-2.5"></div>
+<p class="font-body-md text-white/90 text-[15px]">From Commitments to Continuous Compliance</p>
+</div>
+<a aria-label="View Audit &amp; Compliance" class="w-11 h-11 rounded-full bg-white text-deep-teal flex items-center justify-center shrink-0 hover:bg-sun-yellow transition-colors shadow-lg" data-path="services-audit-compliance" href="#">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: S5 · NUMBERS STRIP -->
+<section class="w-full bg-deep-teal py-20 px-6 lg:px-12 relative overflow-hidden">
+<!-- Faint dotted leaf background pattern -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<svg class="w-full h-full" height="60" viewBox="0 0 60 60" width="60" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#FFFFFF" stroke-width="1">
+<circle cx="30" cy="30" fill="#FFFFFF" r="1.5"></circle>
+<path d="M22 26 C22 20 28 18 30 18 C32 18 38 20 38 26 C38 32 30 38 30 38 C30 38 22 32 22 26 Z" stroke-dasharray="1 2"></path>
+</g>
+</svg>
+</div>
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4 text-center">
+<!-- Col 1 -->
+<div class="flex flex-col items-center">
+<span class="font-heading font-extrabold text-sun-yellow text-[56px]" data-counter="18" data-suffix="+">0</span>
+<span class="font-body-md text-[16px] text-white font-medium max-w-[200px]">Years of Leadership Experience</span>
+</div>
+<!-- Col 2 -->
+<div class="flex flex-col items-center">
+<span class="font-heading font-extrabold text-sun-yellow text-[56px]" data-counter="10">0</span>
+<span class="font-body-md text-[16px] text-white font-medium max-w-[200px]">Statutory Clearance &amp; NOC Services</span>
+</div>
+<!-- Col 3 -->
+<div class="flex flex-col items-center">
+<span class="font-heading font-extrabold text-sun-yellow text-[56px]" data-counter="7">0</span>
+<span class="font-body-md text-[16px] text-white font-medium max-w-[200px]">Industry Sectors Served</span>
+</div>
+<!-- Col 4 -->
+<div class="flex flex-col items-center">
+<span class="font-heading font-extrabold text-sun-yellow text-[56px]" data-counter="13">0</span>
+<span class="font-body-md text-[16px] text-white font-medium max-w-[200px]">Multidisciplinary Experts</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: S6 · OUR NETWORK -->
+<section class="w-full">
+<!-- Part A: Full-width Primary Teal band -->
+<div class="w-full bg-primary h-24 flex items-center justify-center px-6">
+<h2 class="font-headline-lg font-extrabold text-white text-[34px] sm:text-[38px] text-center">
+        Our Network
+      </h2>
+</div>
+<!-- Part B: White background with continuous smooth marquee -->
+<div class="w-full bg-white py-24 overflow-hidden relative">
+<style>
+        @keyframes marquee {
+          0% { transform: translateX(0%); }
+          100% { transform: translateX(-50%); }
+        }
+        .animate-marquee-smooth {
+          display: flex;
+          width: max-content;
+          animation: marquee 28s linear infinite;
+        }
+        .animate-marquee-smooth:hover {
+          animation-play-state: paused;
+        }
+      </style>
+<div class="animate-marquee-smooth flex items-center gap-6 px-3">
+<!-- Logo Card 1: Honda -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 transition-transform hover:-translate-y-1">
+<span class="material-symbols-outlined text-[36px] text-deep-teal mb-1">directions_car</span>
+<span class="font-headline-sm font-bold text-deep-teal text-[19px] tracking-wider uppercase">HONDA</span>
+</div>
+<!-- Logo Card 2: Aditya Birla - UltraTech -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 text-center transition-transform hover:-translate-y-1">
+<span class="font-eyebrow text-[11px] font-bold tracking-widest text-leaf-green uppercase">ADITYA BIRLA</span>
+<span class="font-headline-sm font-extrabold text-deep-teal text-[18px] tracking-tight uppercase mt-0.5">UltraTech</span>
+<span class="font-body-sm text-[11px] text-muted tracking-wide">CEMENT</span>
+</div>
+<!-- Logo Card 3: Coca-Cola Kandhari Global -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 text-center transition-transform hover:-translate-y-1">
+<span class="font-headline-sm font-extrabold text-[#ba1a1a] text-[19px] italic tracking-tight">Coca-Cola</span>
+<span class="font-body-sm text-[12px] font-medium text-deep-teal mt-0.5">Kandhari Global</span>
+</div>
+<!-- Logo Card 4: Fortis -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 text-center transition-transform hover:-translate-y-1">
+<span class="material-symbols-outlined text-[32px] text-fresh-green mb-1">local_hospital</span>
+<span class="font-headline-sm font-bold text-deep-teal text-[20px] tracking-wide uppercase">FORTIS</span>
+</div>
+<!-- Logo Card 5: Ambey Group -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 text-center transition-transform hover:-translate-y-1">
+<span class="material-symbols-outlined text-[32px] text-sun-yellow mb-1">apartment</span>
+<span class="font-headline-sm font-bold text-deep-teal text-[18px] tracking-tight uppercase">AMBEY GROUP</span>
+</div>
+<!-- Duplicate Set for Seamless Infinite Loop -->
+<!-- Logo Card 1: Honda -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 transition-transform hover:-translate-y-1">
+<span class="material-symbols-outlined text-[36px] text-deep-teal mb-1">directions_car</span>
+<span class="font-headline-sm font-bold text-deep-teal text-[19px] tracking-wider uppercase">HONDA</span>
+</div>
+<!-- Logo Card 2: Aditya Birla - UltraTech -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 text-center transition-transform hover:-translate-y-1">
+<span class="font-eyebrow text-[11px] font-bold tracking-widest text-leaf-green uppercase">ADITYA BIRLA</span>
+<span class="font-headline-sm font-extrabold text-deep-teal text-[18px] tracking-tight uppercase mt-0.5">UltraTech</span>
+<span class="font-body-sm text-[11px] text-muted tracking-wide">CEMENT</span>
+</div>
+<!-- Logo Card 3: Coca-Cola Kandhari Global -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 text-center transition-transform hover:-translate-y-1">
+<span class="font-headline-sm font-extrabold text-[#ba1a1a] text-[19px] italic tracking-tight">Coca-Cola</span>
+<span class="font-body-sm text-[12px] font-medium text-deep-teal mt-0.5">Kandhari Global</span>
+</div>
+<!-- Logo Card 4: Fortis -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 text-center transition-transform hover:-translate-y-1">
+<span class="material-symbols-outlined text-[32px] text-fresh-green mb-1">local_hospital</span>
+<span class="font-headline-sm font-bold text-deep-teal text-[20px] tracking-wide uppercase">FORTIS</span>
+</div>
+<!-- Logo Card 5: Ambey Group -->
+<div class="w-[220px] h-[130px] rounded-[16px] bg-white shadow-[0_10px_30px_rgba(11,95,95,0.08)] flex flex-col items-center justify-center p-4 shrink-0 text-center transition-transform hover:-translate-y-1">
+<span class="material-symbols-outlined text-[32px] text-sun-yellow mb-1">apartment</span>
+<span class="font-headline-sm font-bold text-deep-teal text-[18px] tracking-tight uppercase">AMBEY GROUP</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- S7 · DYNAMIC REVIEWS CAROUSEL -->
+<section class="w-full bg-[#EAF3EE] py-20 px-6 lg:px-12 overflow-hidden">
+  <div class="max-w-7xl mx-auto flex flex-col items-center">
+    <div class="text-center max-w-2xl mb-12">
+      <span class="text-leaf-green font-eyebrow text-xs md:text-sm font-semibold tracking-widest uppercase block mb-2">CLIENT REVIEWS</span>
+      <h2 class="font-heading font-bold text-deep-teal text-[32px] sm:text-[38px] mb-3">Trusted by Changemakers</h2>
+      <div class="w-12 h-1 bg-fresh-green mx-auto mb-4 rounded-full"></div>
+      <p class="font-body text-text-muted text-base">What our partners say about working with us.</p>
+    </div>
+
+    <div class="w-full relative px-2">
+      <div class="overflow-hidden w-full">
+        <div id="home-reviews-track" class="flex transition-transform duration-500 ease-out -mx-3">
+          <!-- Populated by reviews.js -->
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center gap-6 mt-10">
+        <button id="reviews-prev" class="w-11 h-11 rounded-full bg-white text-deep-teal shadow-md hover:bg-primary-teal hover:text-white flex items-center justify-center transition-all" aria-label="Previous Reviews">
+          <span class="material-symbols-outlined text-[24px]">chevron_left</span>
+        </button>
+        <div id="reviews-dots" class="flex items-center gap-2"></div>
+        <button id="reviews-next" class="w-11 h-11 rounded-full bg-white text-deep-teal shadow-md hover:bg-primary-teal hover:text-white flex items-center justify-center transition-all" aria-label="Next Reviews">
+          <span class="material-symbols-outlined text-[24px]">chevron_right</span>
+        </button>
+      </div>
+
+      <div class="text-center mt-6">
+        <a href="reviews.html" class="inline-flex items-center gap-1.5 text-sm font-semibold text-primary-teal hover:text-deep-teal hover:underline">
+          <span>Read All Client Reviews</span>
+          <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div></main></main>
+<!-- GLOBAL FOOTER -->
+<footer class="w-full">
+  
+  <!-- S99a: CTA Band -->
+  <section class="w-full bg-primary-teal text-white py-14 px-6 lg:px-12 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 relative z-10">
+      <div class="max-w-3xl">
+        <span class="text-sun-yellow font-eyebrow text-xs md:text-sm font-semibold tracking-widest uppercase block mb-2">LET'S BUILD A GREENER TOMORROW</span>
+        <h2 class="text-white font-heading text-[26px] sm:text-[32px] lg:text-[36px] leading-tight font-bold">
+          Your techno-legal advisory partner in environmental consultancy - trusted by different industrial units in India.
+        </h2>
+      </div>
+      <div class="shrink-0">
+        <button data-action="talk-to-expert" class="btn-yellow px-8 py-4 rounded-full text-base font-bold shadow-lg transition-transform hover:scale-105 inline-flex items-center gap-2">
+          <span>Get in Touch</span>
+          <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+        </button>
+      </div>
+    </div>
+    <!-- Faint background skyline illustration -->
+    <div class="absolute right-0 bottom-0 top-0 w-1/3 opacity-10 pointer-events-none hidden md:block">
+      <svg class="w-full h-full text-white" fill="currentColor" viewBox="0 0 400 200" preserveAspectRatio="none">
+        <path d="M0 200 L40 140 L70 140 L70 90 L120 90 L120 160 L160 160 L160 70 L210 70 L210 200 L260 200 L260 110 L300 110 L300 150 L340 150 L340 120 L400 120 L400 200 Z"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- S99b: Main Footer -->
+  <section class="bg-deep-teal text-white py-16 px-6 lg:px-12">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
+      <!-- Col 1: Brand Info (4 cols) -->
+      <div class="lg:col-span-4 flex flex-col gap-6">
+        <div class="flex items-center gap-3">
+          <img src="./assets/images/envlogo-nav.webp" alt="EnviroRise Clearance" class="h-14 w-auto brightness-0 invert">
+        </div>
+        <p class="font-body text-white/80 text-[15px] leading-relaxed max-w-sm">
+          Building Responsibly. Growing Sustainably. Connecting development with environmental integrity across project lifecycles.
+        </p>
+        <div class="flex items-center gap-3">
+          <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors" aria-label="Facebook">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors" aria-label="Instagram">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors" aria-label="LinkedIn">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+        </div>
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-xs text-white/90 w-max">
+          <span class="material-symbols-outlined text-[16px] text-sun-yellow">verified</span>
+          <span>ISO 9001:2015 Certified Company</span>
+        </div>
+      </div>
+
+      <!-- Col 2: Company Links (2 cols) -->
+      <div class="lg:col-span-2">
+        <h4 class="font-heading font-bold text-white text-base tracking-wider uppercase mb-5 border-l-2 border-fresh-green pl-3">Company</h4>
+        <ul class="flex flex-col gap-2.5 text-sm text-white/80">
+          <li><a href="./our-company.html" class="hover:text-sun-yellow transition-colors">Our Company</a></li>
+          <li><a href="./management-team.html" class="hover:text-sun-yellow transition-colors">Management Team</a></li>
+          <li><a href="./core-team.html" class="hover:text-sun-yellow transition-colors">Core Team</a></li>
+          <li><a href="./clientele.html" class="hover:text-sun-yellow transition-colors">Clientele</a></li>
+          <li><a href="./reviews.html" class="hover:text-sun-yellow transition-colors">Reviews</a></li>
+          <li><a href="./gallery.html" class="hover:text-sun-yellow transition-colors">Gallery</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Services (2 cols) -->
+      <div class="lg:col-span-2">
+        <h4 class="font-heading font-bold text-white text-base tracking-wider uppercase mb-5 border-l-2 border-fresh-green pl-3">Services</h4>
+        <ul class="flex flex-col gap-2.5 text-sm text-white/80">
+          <li><a href="./assessment.html" class="hover:text-sun-yellow transition-colors">Assessment</a></li>
+          <li><a href="./clearances.html" class="hover:text-sun-yellow transition-colors">Clearances</a></li>
+          <li><a href="./monitoring.html" class="hover:text-sun-yellow transition-colors">Monitoring</a></li>
+          <li><a href="./audit-compliance.html" class="hover:text-sun-yellow transition-colors">Audit & Compliance</a></li>
+          <li><a href="./contact-us.html" class="hover:text-sun-yellow transition-colors">Inquire Now</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Contact (4 cols) -->
+      <div class="lg:col-span-4 flex flex-col gap-3 text-sm text-white/80">
+        <h4 class="font-heading font-bold text-white text-base tracking-wider uppercase mb-5 border-l-2 border-fresh-green pl-3">Contact</h4>
+        <p class="leading-relaxed">
+          <strong class="text-white">Registered Office:</strong> S-103, Vidhyut Vihar, 4-S, New Loha Mandi Road, Macheda, Jaipur, Rajasthan – 302013
+        </p>
+        <p class="leading-relaxed">
+          <strong class="text-white">Corporate Office:</strong> First Floor, Cassandra Business Tower, Bajaj Nagar Enclave, Jaipur, Rajasthan – 302015
+        </p>
+        <p class="leading-relaxed">
+          <strong class="text-white">Branch Locations:</strong> Gurugram, Ahmedabad, Goa, Lucknow
+        </p>
+        <p class="pt-2">
+          <strong class="text-white">Mobile:</strong> 
+          <a href="tel:+919785552521" class="hover:text-sun-yellow transition-colors">+91-9785552521</a> / 
+          <a href="tel:+919929442024" class="hover:text-sun-yellow transition-colors">+91-9929442024</a>
+        </p>
+        <p>
+          <strong class="text-white">Email:</strong> 
+          <a href="mailto:info@enviro-rise.com" class="hover:text-sun-yellow transition-colors">info@enviro-rise.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- S99c: Bottom Bar -->
+  <div class="bg-[#052C2D] py-5 px-6 lg:px-12 border-t border-white/10 text-xs text-white/60">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+      <span>© 2026 EnviroRise Clearance Private Limited. All rights reserved.</span>
+      <span class="tracking-widest font-semibold text-sun-yellow">PEOPLE | PLANET | PROGRESS</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Global Floating Elements -->
+<button id="inquiry-floating-tab" class="fixed right-0 top-1/2 bg-sun-yellow text-deep-teal font-heading font-bold text-xs uppercase tracking-widest px-3 py-4 rounded-l-xl shadow-2xl z-40 hover:bg-[#e0b020] cursor-pointer" aria-label="Open Quick Inquiry Form">
+  Inquiry Now
+</button>
+
+<button id="back-to-top" class="fixed bottom-6 right-6 w-12 h-12 rounded-full bg-primary-teal text-white shadow-xl flex items-center justify-center z-40 transition-all hover:bg-deep-teal hover:scale-105" aria-label="Back to Top">
+  <span class="material-symbols-outlined text-[24px]">arrow_upward</span>
+</button>
+
+<!-- Slide-in Inquiry Drawer & Backdrop -->
+<div id="inquiry-backdrop" class="drawer-backdrop fixed inset-0 bg-black/60 z-50"></div>
+<div id="inquiry-drawer" class="drawer-panel fixed top-0 right-0 h-full w-[90%] max-w-[440px] bg-white z-50 shadow-2xl flex flex-col justify-between overflow-y-auto">
+  <div class="p-8">
+    <div class="flex items-center justify-between pb-5 border-b border-border-light">
+      <div>
+        <span class="text-xs font-eyebrow font-semibold text-leaf-green tracking-wider uppercase">QUICK CONSULTATION</span>
+        <h3 class="font-heading font-bold text-deep-teal text-2xl">Inquire Now</h3>
+      </div>
+      <button id="close-inquiry-btn" class="p-2 text-gray-500 hover:text-gray-800">
+        <span class="material-symbols-outlined text-[26px]">close</span>
+      </button>
+    </div>
+
+    <form id="inquiry-form" class="flex flex-col gap-4 mt-6">
+      <div>
+        <label class="block text-xs font-semibold text-[#12312F] uppercase tracking-wider mb-1">Your Name *</label>
+        <input type="text" name="name" required class="w-full px-4 py-3 rounded-xl border border-border-light text-sm focus:border-fresh-green focus:ring-1 focus:ring-fresh-green outline-none" placeholder="e.g. Ramesh Kumar">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-[#12312F] uppercase tracking-wider mb-1">Email Address</label>
+        <input type="email" name="email" class="w-full px-4 py-3 rounded-xl border border-border-light text-sm focus:border-fresh-green focus:ring-1 focus:ring-fresh-green outline-none" placeholder="e.g. name@company.com">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-[#12312F] uppercase tracking-wider mb-1">Phone Number *</label>
+        <input type="tel" name="phone" required class="w-full px-4 py-3 rounded-xl border border-border-light text-sm focus:border-fresh-green focus:ring-1 focus:ring-fresh-green outline-none" placeholder="e.g. +91 98765 43210">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-[#12312F] uppercase tracking-wider mb-1">Service Required</label>
+        <select name="service" class="w-full px-4 py-3 rounded-xl border border-border-light text-sm focus:border-fresh-green focus:ring-1 focus:ring-fresh-green outline-none bg-white">
+          <option value="Environmental Clearance">Environmental Clearance (EC / CTE / CTO)</option>
+          <option value="EIA Assessment">EIA & Environmental Assessment</option>
+          <option value="Environmental Monitoring">Environmental Monitoring (Air, Water, Soil, Noise)</option>
+          <option value="Audit & Compliance">Audit & Environmental Compliance</option>
+          <option value="Water & Hydrological Services">Water Audits & CGWA NOC</option>
+          <option value="Mining Plans">Mining Plans & Mine Closure</option>
+          <option value="Other Advisory">Other Environmental Advisory</option>
+        </select>
+      </div>
+      <div>
+        <label class="block text-xs font-semibold text-[#12312F] uppercase tracking-wider mb-1">Project Details / Message</label>
+        <textarea name="message" rows="3" class="w-full px-4 py-3 rounded-xl border border-border-light text-sm focus:border-fresh-green focus:ring-1 focus:ring-fresh-green outline-none resize-none" placeholder="Briefly describe your project, location, and requirement..."></textarea>
+      </div>
+      <button type="submit" class="w-full bg-primary-teal hover:bg-deep-teal text-white py-3.5 rounded-full font-bold text-sm tracking-wide shadow-md transition-all mt-2 flex items-center justify-center gap-2">
+        <span>Submit Inquiry</span>
+        <span class="material-symbols-outlined text-[18px]">send</span>
+      </button>
+    </form>
+  </div>
+
+  <div class="p-6 border-t border-border-light bg-[#F8FBF8] text-xs text-[#4C6461] flex items-center gap-2">
+    <span class="material-symbols-outlined text-fresh-green text-[18px]">lock</span>
+    <span>Your information is strictly confidential and protected.</span>
+  </div>
+</div>
+
+<div id="toast-container"></div>
+
+<!-- Global Scripts -->
+<script src="./assets/js/api.js"></script>
+<script src="./assets/js/main.js"></script>
+
+<script src="assets/js/slider.js"></script>
+<script src="assets/js/counter.js"></script>
+<script src="assets/js/reviews.js"></script>
+</body>
+</html>

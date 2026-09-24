@@ -1,0 +1,123 @@
+{
+  "directors": [
+    {
+      "name": "Hari Nandiwal",
+      "role": "Director",
+      "experience": "18+ Years",
+      "image": "assets/images/management/hari-nandiwal.jpg",
+      "imageWebp": "assets/images/management/hari-nandiwal.webp",
+      "intro": "His strategic leadership across business development, client engagement, regulatory advisory, and project direction continues to help EnviroRise deliver the quality.",
+      "bio": "With 18+ years of experience in Environmental Consultancy, Hari Nandiwal brings multidisciplinary expertise across Environmental Management, Regulatory Frameworks, Environmental Law & Policy, Sustainable Development, EHS, Industrial Safety, Process Engineering, Information Technology and Six Sigma. At ERC, he provides strategic leadership across business development, client engagement, regulatory advisory, and project direction. He combines in-depth regulatory knowledge with practical expertise to deliver technically sound solutions aligned with clients' compliance and sustainability requirements."
+    },
+    {
+      "name": "Ravi Sharma",
+      "role": "Director",
+      "experience": "16+ Years",
+      "image": "assets/images/management/ravi-sharma.jpg",
+      "imageWebp": "assets/images/management/ravi-sharma.webp",
+      "intro": "His expertise project strategy, technical coordination, and client engagement, bringing a strong focus on regulatory compliance and environmental management plays vital roles in the process and execution at EnviroRise.",
+      "bio": "With 16+ years of experience in Environmental Consultancy, Ravi Sharma brings multidisciplinary expertise in Environmental Management, Regulatory Frameworks, Environmental Law & Policy, Environmental & Sustainable Development, EHS, Industrial Safety, Process Engineering, Information Technology and Six Sigma. At ERC, he leads project strategy, technical coordination, and client engagement, bringing a strong focus on regulatory compliance and environmental management. His approach integrates technical expertise with practical solutions to support efficient, compliant, and sustainable project outcomes."
+    }
+  ],
+  "coreTeam": [
+    {
+      "name": "KHUSHBOO AGARWAL",
+      "role": "Architect",
+      "experience": "14+ Years of Professional Experience",
+      "featured": true,
+      "image": "assets/images/team/khushboo-agarwal.jpg",
+      "imageWebp": "assets/images/team/khushboo-agarwal.webp",
+      "bio": "Khushboo Agarwal brings 14+ years of professional experience in architecture, planning and design, with expertise in developing functional, sustainable and project-oriented design solutions. She contributes to ERC work through architectural planning, sustainable site development and environmentally conscious design approaches."
+    },
+    {
+      "name": "REKHA SHARMA",
+      "role": "Social Impact & Community Engagement Expert",
+      "experience": "10+ Years of Professional Experience",
+      "featured": true,
+      "image": "assets/images/team/rekha-sharma.png",
+      "imageWebp": "assets/images/team/rekha-sharma.webp",
+      "bio": "Rekha Sharma is a Social Impact & Community Engagement Expert with 10+ years of professional experience in social assessment, community development and stakeholder engagement. Her expertise contributes to Social Impact Assessment, Stakeholder Consultation, Community Participation, Socio-Economic Profiling and Socially Responsible Project Planning, supporting meaningful community engagement and sustainable project development."
+    },
+    {
+      "name": "GANESH SHARMA",
+      "role": "Environmental Engineer",
+      "experience": "8+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/ganesh-sharma.png",
+      "imageWebp": "assets/images/team/ganesh-sharma.webp",
+      "bio": "Ganesh Sharma is an Environmental Engineer with 8+ years of professional experience in environmental management and technical consultancy. His expertise contributes to Environmental Assessments, Pollution-Control Strategies, Environmental Monitoring, Compliance and Sustainable Project Solutions."
+    },
+    {
+      "name": "VIJAY CHAUDHARY",
+      "role": "Civil Engineer",
+      "experience": "8+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/vijay-chaudhary.png",
+      "imageWebp": "assets/images/team/vijay-chaudhary.webp",
+      "bio": "Vijay Chaudhary is a Civil Engineer with 8+ years of professional experience, contributing technical expertise in Infrastructure Planning, Civil Works, Water and Drainage Systems and Environmental Infrastructure. His practical approach supports the development of efficient and implementable solutions for diverse project requirements."
+    },
+    {
+      "name": "AADI SIRSWA",
+      "role": "Architect",
+      "experience": "7+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/aadi-sirswa.png",
+      "imageWebp": "assets/images/team/aadi-sirswa.webp",
+      "bio": "With 7+ years of professional experience in Architecture, Planning and Design, Aadi Specializes in Developing Practical, Sustainable and Context-Sensitive Design Solutions. He contributes to projects through architectural planning, site development, design coordination and environmentally responsive approaches, supporting functional and sustainable project outcomes."
+    },
+    {
+      "name": "RAKESH KUMAR",
+      "role": "GIS Expert",
+      "experience": "5+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/rakesh-kumar.png",
+      "imageWebp": "assets/images/team/rakesh-kumar.webp",
+      "bio": "Rakesh is a GIS professional with 5+ years of experience in geospatial analysis and environmental applications. He specializes in GIS Mapping, LU/LC Analysis, Spatial Data Interpretation, Thematic Mapping and Environmental Site Assessment, supporting project planning and regulatory studies through accurate and data-driven geospatial solutions."
+    },
+    {
+      "name": "NEERAJ SHARMA",
+      "role": "Environmental Health & Safety Expert",
+      "experience": "5+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/neeraj-sharma.png",
+      "imageWebp": "assets/images/team/neeraj-sharma.webp",
+      "bio": "Neeraj Sharma is an Environmental Health & Safety (EHS) professional with 5+ years of experience, supporting organizations in environmental Management, Workplace Safety, Risk Management and EHS Compliance. He contributes to developing safer, compliant and environmentally responsible project environments."
+    },
+    {
+      "name": "NISHA CHAUDHARY",
+      "role": "Botanist",
+      "experience": "5+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/nisha-chaudhary.png",
+      "imageWebp": "assets/images/team/nisha-chaudhary.webp",
+      "bio": "Nisha Chaudhary is a Botanist with a strong academic background in Botany and expertise in Plant Studies, Biodiversity Assessment and Ecological Evaluation. Her Knowledge Contributes to Environmental and Ecological Studies Through Flora Documentation, Vegetation Assessment, Biodiversity Surveys And Field-Based Botanical Investigations, Supporting Sustainable And Environmentally Responsible Project Planning."
+    },
+    {
+      "name": "MUKESH KUMAR",
+      "role": "DGPS & Drone Survey Specialist",
+      "experience": "3+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/mukesh-kumar.png",
+      "imageWebp": "assets/images/team/mukesh-kumar.webp",
+      "bio": "Mukesh Kumar is a DGPS & Drone Survey Specialist with 3+ years of professional experience in geospatial surveying, DGPS data collection, drone-based aerial surveys and topographic mapping. His expertise contributes to accurate field data acquisition, site mapping, terrain assessment, orthomosaic generation, contour mapping and survey-based technical documentation, supporting precise and efficient solutions for diverse project requirements."
+    },
+    {
+      "name": "MAHESH SHARMA",
+      "role": "Environment Officer",
+      "experience": "2+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/mahesh-sharma.jpg",
+      "imageWebp": "assets/images/team/mahesh-sharma.webp",
+      "bio": "Mahesh Sharma is an Environment Officer with 2+ years of professional experience in environmental assessment and technical consultancy. His expertise contributes to environmental studies, baseline assessment, environmental monitoring, impact evaluation and regulatory compliance, supporting practical and sustainable solutions for diverse project requirements."
+    },
+    {
+      "name": "DIMPLE TAILOR",
+      "role": "Chemical Engineer",
+      "experience": "2+ Years of Professional Experience",
+      "featured": false,
+      "image": "assets/images/team/dimple-tailor.jpg",
+      "imageWebp": "assets/images/team/dimple-tailor.webp",
+      "bio": "Dimple Tailor is a Chemical Engineer with 2+ years of professional experience in environmental analysis and technical consultancy. Her expertise contributes to environmental monitoring, laboratory analysis, water and wastewater quality assessment, data interpretation and environmental compliance, supporting reliable and scientifically sound environmental solutions."
+    }
+  ]
+}

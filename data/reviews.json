@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rev-1",
+    "quote": "The team brought clarity to a complex regulatory process and ensured timely approvals with professionalism and deep domain knowledge.",
+    "author": "Project Head",
+    "organisation": "Infrastructure & Realty",
+    "category": "Built Environment",
+    "rating": 5,
+    "date": "2026-01-15",
+    "featured": true
+  },
+  {
+    "id": "rev-2",
+    "quote": "Their scientific approach and practical solutions helped us strengthen our environmental compliance while improving operational efficiency.",
+    "author": "Operations Director",
+    "organisation": "Manufacturing",
+    "category": "Industry & Manufacturing",
+    "rating": 5,
+    "date": "2026-02-10",
+    "featured": true
+  },
+  {
+    "id": "rev-3",
+    "quote": "EnviroRise combines technical expertise with a genuine commitment to sustainability. They were responsive, insightful and a pleasure to work with.",
+    "author": "CSR Lead",
+    "organisation": "Social Impact Organisation",
+    "category": "Social Impact",
+    "rating": 5,
+    "date": "2026-02-28",
+    "featured": true
+  },
+  {
+    "id": "rev-4",
+    "quote": "The team's guidance on environmental clearances was invaluable. Their professionalism, attention to detail and proactive communication made the entire process seamless.",
+    "author": "Development Lead",
+    "organisation": "Renewable Energy",
+    "category": "Renewable Energy",
+    "rating": 5,
+    "date": "2026-03-05",
+    "featured": false
+  },
+  {
+    "id": "rev-5",
+    "quote": "We value their evidence-based approach and ability to translate complex environmental data into actionable insights. A truly reliable and knowledgeable partner.",
+    "author": "Head \u2013 Sustainability",
+    "organisation": "Research & Academic Institution",
+    "category": "Research & Academia",
+    "rating": 5,
+    "date": "2026-03-12",
+    "featured": false
+  },
+  {
+    "id": "rev-6",
+    "quote": "Their field assessments and practical recommendations helped us minimise environmental risks and move forward with confidence.",
+    "author": "Compliance Manager",
+    "organisation": "Logistics & Warehousing",
+    "category": "Transport & Logistics",
+    "rating": 5,
+    "date": "2026-03-18",
+    "featured": false
+  }
+]

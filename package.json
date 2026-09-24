@@ -1,0 +1,19 @@
+{
+  "name": "envirorise-clearance-website",
+  "version": "1.0.0",
+  "description": "Production Website for EnviroRise Clearance Private Limited",
+  "scripts": {
+    "dev": "npx -y serve . -p 3000",
+    "serve": "npx -y serve . -p 3000",
+    "backend": "cd backend && npm run dev"
+  },
+  "keywords": [
+    "environmental-clearance",
+    "eia",
+    "environmental-consultancy",
+    "ehs",
+    "envirorise"
+  ],
+  "author": "EnviroRise Clearance Private Limited",
+  "license": "ISC"
+}

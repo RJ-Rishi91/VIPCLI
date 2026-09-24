@@ -1,0 +1,91 @@
+{
+  "sectors": [
+    {
+      "title": "Mining & Minerals",
+      "text": "Environmental assessments, mining plans, monitoring, clearances and mine closure strategies.",
+      "icon": "terrain"
+    },
+    {
+      "title": "Manufacturing & Processing",
+      "text": "Environmental clearance, consent management, monitoring and compliance support.",
+      "icon": "precision_manufacturing"
+    },
+    {
+      "title": "Chemical Industries",
+      "text": "Environmental assessments, regulatory compliance, environmental monitoring and EHS support.",
+      "icon": "science"
+    },
+    {
+      "title": "Healthcare & Hospitals",
+      "text": "Environmental monitoring, compliance and sustainable infrastructure support.",
+      "icon": "local_hospital"
+    },
+    {
+      "title": "Educational Institutions",
+      "text": "Environmental planning, monitoring and compliance solutions.",
+      "icon": "school"
+    },
+    {
+      "title": "Residential & Commercial Buildings",
+      "text": "Environmental assessment, statutory approvals and sustainable planning.",
+      "icon": "apartment"
+    },
+    {
+      "title": "Infrastructure Projects",
+      "text": "Environmental assessment, clearances, monitoring and compliance support.",
+      "icon": "engineering"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Honda",
+      "category": "Automotive & Industrial",
+      "icon": "directions_car"
+    },
+    {
+      "name": "Aditya Birla \u2013 UltraTech",
+      "category": "Cement & Materials",
+      "icon": "domain"
+    },
+    {
+      "name": "Coca-Cola Kandhari Global",
+      "category": "Beverages & FMCG",
+      "icon": "local_drink"
+    },
+    {
+      "name": "Fortis Healthcare",
+      "category": "Healthcare & Hospitals",
+      "icon": "local_hospital"
+    },
+    {
+      "name": "Ambey Group",
+      "category": "Infrastructure & Real Estate",
+      "icon": "foundation"
+    },
+    {
+      "name": "Chordia's",
+      "category": "Real Estate & Built Environment",
+      "icon": "apartment"
+    },
+    {
+      "name": "VB Group",
+      "category": "Manufacturing & Processing",
+      "icon": "factory"
+    },
+    {
+      "name": "Bhagwan Mahaveer Cancer Hospital",
+      "category": "Healthcare Institution",
+      "icon": "medical_services"
+    },
+    {
+      "name": "Manglam BDL",
+      "category": "Construction & Infrastructure",
+      "icon": "corporate_fare"
+    },
+    {
+      "name": "Janak Nandini",
+      "category": "Enterprises & Development",
+      "icon": "business"
+    }
+  ]
+}

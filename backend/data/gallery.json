@@ -1,0 +1,263 @@
+[
+  {
+    "id": "gal-1",
+    "title": "Baseline Ecological Survey",
+    "category": "Field Visits",
+    "description": "Field survey and flora documentation conducted by environmental experts.",
+    "image": "assets/images/gallery/F1.JPG",
+    "thumb": "assets/images/gallery/thumbs/F1.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-2",
+    "title": "Topographic Drone Mapping",
+    "category": "Field Visits",
+    "description": "High precision DGPS aerial survey and boundary demarcation.",
+    "image": "assets/images/gallery/F2.JPG",
+    "thumb": "assets/images/gallery/thumbs/F2.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-3",
+    "title": "Industrial Site Inspection",
+    "category": "Projects",
+    "description": "Comprehensive environmental impact assessment at manufacturing facility.",
+    "image": "assets/images/gallery/F3.jpg",
+    "thumb": "assets/images/gallery/thumbs/F3.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-4",
+    "title": "Ambient Air Quality Sampling",
+    "category": "Field Visits",
+    "description": "Structured field monitoring of particulate matter and ambient emissions.",
+    "image": "assets/images/gallery/F4.jpg",
+    "thumb": "assets/images/gallery/thumbs/F4.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-5",
+    "title": "Public Stakeholder Consultation",
+    "category": "Community Engagement",
+    "description": "Engaging with local communities for social impact assessment and feedback.",
+    "image": "assets/images/gallery/F5.jpg",
+    "thumb": "assets/images/gallery/thumbs/F5.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-6",
+    "title": "Groundwater Testing & Hydrological Audit",
+    "category": "Projects",
+    "description": "Water resource analysis and CGWA compliance sampling.",
+    "image": "assets/images/gallery/F6.jpg",
+    "thumb": "assets/images/gallery/thumbs/F6.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-7",
+    "title": "Soil Quality Assessment & Sampling",
+    "category": "Field Visits",
+    "description": "Sub-surface soil profiling and contamination screening.",
+    "image": "assets/images/gallery/F7.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F7.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-8",
+    "title": "Sustainable Planning Consultation",
+    "category": "Projects",
+    "description": "Multi-disciplinary engineering review for green site development.",
+    "image": "assets/images/gallery/F8.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F8.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-9",
+    "title": "Mining Plan & Environmental Clearance Survey",
+    "category": "Projects",
+    "description": "Field evaluation for statutory clearance and progressive mine closure.",
+    "image": "assets/images/gallery/F9.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F9.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-10",
+    "title": "Environmental Compliance Review",
+    "category": "Our Journey",
+    "description": "Internal technical audit session on compliance frameworks.",
+    "image": "assets/images/gallery/F10.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F10.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-11",
+    "title": "Field Instrumentation Calibration",
+    "category": "Field Visits",
+    "description": "Calibrating high-volume samplers and digital acoustic analyzers.",
+    "image": "assets/images/gallery/F11.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F11.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-12",
+    "title": "Renewable Energy Site Feasibility",
+    "category": "Projects",
+    "description": "Solar park terrain assessment and ecological impact evaluation.",
+    "image": "assets/images/gallery/F12.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F12.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-13",
+    "title": "Sediment & Surface Water Sampling",
+    "category": "Field Visits",
+    "description": "River basin water monitoring across seasonal cycles.",
+    "image": "assets/images/gallery/F13.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F13.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-14",
+    "title": "Infrastructure Clearance Inspection",
+    "category": "Projects",
+    "description": "Major highway corridor environmental mitigation audit.",
+    "image": "assets/images/gallery/F14.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F14.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-15",
+    "title": "EHS On-Site Safety Briefing",
+    "category": "Community Engagement",
+    "description": "Conducting safety and environmental protocol training for site personnel.",
+    "image": "assets/images/gallery/F15.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F15.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-16",
+    "title": "Flora & Biodiversity Documentation",
+    "category": "Field Visits",
+    "description": "Botanical inventory for MoEF&CC environmental impact reporting.",
+    "image": "assets/images/gallery/F16.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F16.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-17",
+    "title": "Noise Level Measurement & Monitoring",
+    "category": "Field Visits",
+    "description": "Day and night ambient acoustic level logging for industrial zoning.",
+    "image": "assets/images/gallery/F17.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F17.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-18",
+    "title": "Stack Emission Monitoring",
+    "category": "Projects",
+    "description": "Flue gas sampling and pollution abatement system inspection.",
+    "image": "assets/images/gallery/F18.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F18.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-19",
+    "title": "Environmental Awareness Workshop",
+    "category": "Community Engagement",
+    "description": "Educational session on water conservation and ecological preservation.",
+    "image": "assets/images/gallery/F19.jpg",
+    "thumb": "assets/images/gallery/thumbs/F19.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-20",
+    "title": "GIS Spatial Land Cover Analysis",
+    "category": "Our Journey",
+    "description": "Thematic geospatial mapping and LU/LC classification.",
+    "image": "assets/images/gallery/F20.png",
+    "thumb": "assets/images/gallery/thumbs/F20.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-21",
+    "title": "Water Conservation Project Review",
+    "category": "Projects",
+    "description": "Rainwater harvesting and artificial recharge structure validation.",
+    "image": "assets/images/gallery/F21.jpg",
+    "thumb": "assets/images/gallery/thumbs/F21.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-22",
+    "title": "Environmental Laboratory Analysis",
+    "category": "Our Journey",
+    "description": "Spectrophotometric and chemical testing of water samples.",
+    "image": "assets/images/gallery/F22.png",
+    "thumb": "assets/images/gallery/thumbs/F22.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-23",
+    "title": "Plantation & Green Belt Development",
+    "category": "Community Engagement",
+    "description": "Initiating native species green belts around industrial perimeters.",
+    "image": "assets/images/gallery/F23.jpg",
+    "thumb": "assets/images/gallery/thumbs/F23.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-24",
+    "title": "Post-Clearance Monitoring Verification",
+    "category": "Projects",
+    "description": "Checking continuous emission monitoring systems (CEMS) compliance.",
+    "image": "assets/images/gallery/F24.jpg",
+    "thumb": "assets/images/gallery/thumbs/F24.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-25",
+    "title": "Geospatial Site Elevation Model",
+    "category": "Our Journey",
+    "description": "3D digital elevation model generated from drone photogrammetry.",
+    "image": "assets/images/gallery/F25.png",
+    "thumb": "assets/images/gallery/thumbs/F25.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-26",
+    "title": "Hydrological Basin Flow Modeling",
+    "category": "Our Journey",
+    "description": "Computational runoff simulation and flood risk mitigation planning.",
+    "image": "assets/images/gallery/F26.png",
+    "thumb": "assets/images/gallery/thumbs/F26.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-27",
+    "title": "Air Dispersion Plume Modeling",
+    "category": "Our Journey",
+    "description": "AERMOD simulation to predict ground-level concentrations.",
+    "image": "assets/images/gallery/F27.png",
+    "thumb": "assets/images/gallery/thumbs/F27.webp",
+    "aspect": "landscape"
+  },
+  {
+    "id": "gal-28",
+    "title": "Team Technical Review Meeting",
+    "category": "Our Journey",
+    "description": "Directors Hari Nandiwal and Ravi Sharma conducting project reviews.",
+    "image": "assets/images/gallery/F28.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F28.webp",
+    "aspect": "portrait"
+  },
+  {
+    "id": "gal-29",
+    "title": "Corporate Excellence Milestone",
+    "category": "Our Journey",
+    "description": "Recognizing multidisciplinary achievements and ISO compliance standards.",
+    "image": "assets/images/gallery/F29.jpeg",
+    "thumb": "assets/images/gallery/thumbs/F29.webp",
+    "aspect": "landscape"
+  }
+]

@@ -1,0 +1,259 @@
+/* ==========================================================================
+   EnviroRise Clearance (ERC) — Modern Stylesheet & Design System
+   ========================================================================== */
+
+:root {
+  --primary-teal: #0B5F5F;
+  --deep-teal: #073F41;
+  --leaf-green: #3B7521;
+  --fresh-green: #6BAA3D;
+  --sun-yellow: #F4C430;
+  --mint-tint: #EAF3EE;
+  --surface-offwhite: #F8FBF8;
+  --text-main: #12312F;
+  --text-muted: #4C6461;
+  --border-color: #D6E4DC;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-main);
+  background-color: var(--surface-offwhite);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #0B5F5F40;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0B5F5F80;
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee-smooth {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee-smooth:hover {
+  animation-play-state: paused;
+}
+
+/* Utility bar collapse on scroll */
+#utility-bar {
+  transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+  max-height: 40px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+#utility-bar.collapsed {
+  max-height: 0;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#main-nav {
+  transition: height 0.3s ease, box-shadow 0.3s ease;
+}
+
+#main-nav.scrolled {
+  height: 68px;
+  box-shadow: 0 4px 20px rgba(11, 95, 95, 0.08);
+}
+
+/* Nav Dropdown Animations */
+.nav-dropdown {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.2s;
+}
+
+.group:hover .nav-dropdown,
+.group:focus-within .nav-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Card Hover Elevation */
+.erc-card {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.erc-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 36px rgba(11, 95, 95, 0.12);
+}
+
+/* Button Hover State */
+.btn-primary {
+  background-color: var(--primary-teal);
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+.btn-primary:hover {
+  background-color: #084848;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(11, 95, 95, 0.25);
+}
+
+.btn-yellow {
+  background-color: var(--sun-yellow);
+  color: var(--deep-teal);
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+.btn-yellow:hover {
+  background-color: #e5b625;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(244, 196, 48, 0.35);
+}
+
+/* Floating Elements */
+#inquiry-floating-tab {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease, right 0.2s ease;
+}
+
+#inquiry-floating-tab:hover {
+  transform: translateY(-50%) translateX(-4px);
+}
+
+#back-to-top {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+#back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Toast Notifications */
+#toast-container {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.toast {
+  pointer-events: auto;
+  min-width: 280px;
+  max-width: 420px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  animation: toastIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast-success {
+  background-color: #073F41;
+  color: #FFFFFF;
+  border-left: 4px solid #6BAA3D;
+}
+
+.toast-error {
+  background-color: #ba1a1a;
+  color: #FFFFFF;
+  border-left: 4px solid #F4C430;
+}
+
+/* Lightbox Modal */
+.lightbox-modal {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.lightbox-modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Drawer Transitions */
+.drawer-backdrop {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.drawer-backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.drawer-panel {
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drawer-panel.active {
+  transform: translateX(0);
+}
+
+/* Focus States for Accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--fresh-green);
+  outline-offset: 2px;
+}
+
+/* Reduced Motion Preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

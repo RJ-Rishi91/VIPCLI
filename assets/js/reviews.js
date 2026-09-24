@@ -11,17 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Category photo mapping for review cards
 const categoryPhotoMap = {
-  'built environment': 'assets/images/gallery/thumbs/F3.webp',
-  'industry & manufacturing': 'assets/images/gallery/thumbs/F4.webp',
-  'social impact': 'assets/images/gallery/thumbs/F5.webp',
-  'renewable energy': 'assets/images/gallery/thumbs/F12.webp',
-  'research & academia': 'assets/images/gallery/thumbs/F22.webp',
-  'transport & logistics': 'assets/images/gallery/thumbs/F14.webp'
+  'built environment': 'assets/images/reviews/reviews_built_environment.jpg',
+  'industry & manufacturing': 'assets/images/reviews/reviews_industry_manufacturing.jpg',
+  'social impact': 'assets/images/about/commitments_sapling_planting.jpg',
+  'renewable energy': 'assets/images/reviews/reviews_renewable_energy.jpg',
+  'research & academia': 'assets/images/reviews/reviews_research_academia.jpg',
+  'transport & logistics': 'assets/images/reviews/reviews_transport_logistics.jpg'
 };
 
 function getCategoryPhoto(cat) {
+  const prefix = window.location.pathname.includes('/about-us/') || window.location.pathname.includes('/services/') ? '../' : './';
   const key = (cat || '').toLowerCase().trim();
-  return categoryPhotoMap[key] || 'assets/images/gallery/thumbs/F1.webp';
+  const relPath = categoryPhotoMap[key] || 'assets/images/reviews/reviews_built_environment.jpg';
+  return prefix + relPath;
 }
 
 function renderStars(rating = 5) {

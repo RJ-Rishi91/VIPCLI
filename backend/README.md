@@ -49,13 +49,15 @@ node server.js
 3. Set the following parameters:
    - **Name**: `envirorise-api`
    - **Environment**: `Node`
-   - **Build Command**: `npm install && cd backend && npm install`
-   - **Start Command**: `node backend/server.js`
+   - **Root Directory**: `backend`
+   - **Build Command**: `npm install`
+   - **Start Command**: `node server.js`
    - **Plan**: `Free`
+   *(Note: If you leave Root Directory empty, set Start Command to `npm start` or `node backend/server.js`)*
 4. Add Environment Variables:
    - `NODE_ENV`: `production`
    - `ADMIN_KEY`: `envirorise2026` (or your chosen secret password)
-5. Click **Create Web Service**.
+5. Click **Create Web Service** (or **Save Changes**).
 
 ---
 
